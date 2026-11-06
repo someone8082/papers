@@ -1,0 +1,210 @@
+{
+  "kind": "stage8-grouped-split-pinned",
+  "case_count": 24,
+  "fixture_instances": 40,
+  "protected": {
+    "CONTRACT.md": {
+      "sha256": "14e30509eb2b60ac1d5970486da9445dc3dc368658ed07df230818ebb25aaf15",
+      "bytes": 5897
+    },
+    "verify_metric.py": {
+      "sha256": "f0d23f4c86858c6b5fb4c7f1f9dfda44d6557260717c17242f00ee61066e8589",
+      "bytes": 11694
+    },
+    "fixtures/case24-cases.json": {
+      "sha256": "a0de53199610c4197cd6e2392461c8d2c60b4d5f116fbf6d70ac40cc8d140446",
+      "bytes": 4914
+    },
+    "tools/gen_fixtures.py": {
+      "sha256": "6cf33006a581b77ffdbfec234e92f2ea19d494ad4b46a17bad418faff4e7921b",
+      "bytes": 2229
+    }
+  },
+  "external_archive": {
+    "root_relative_to_repo": "../..",
+    "manifests": {
+      "week5/acceptance/freeze-v1-2026-11-02/freeze-manifest.json": {
+        "sha256": "420738ef83a0ccd5814d322356f172307daa6af140afb05086aa6086d8d1421c",
+        "bytes": 2811
+      },
+      "week5/acceptance/freeze-second-pool-2026-11-03/freeze-manifest.json": {
+        "sha256": "0799df0545dc490d6e8bedde8a3a675fa051ed09837041ca06befe9a75f3e48b",
+        "bytes": 1683
+      },
+      "week6/acceptance/route-b-freeze-2026-11-04/freeze-manifest.json": {
+        "sha256": "81ce59deab018e31699ef8d0a0c26fafaa605d47d44ef5424bf791a42bc117e8",
+        "bytes": 3910
+      },
+      "week7/acceptance/stage7-background-2026-11-05/freeze-manifest.json": {
+        "sha256": "bd769b31f7f599bf50469d2b7e621dc70412fda18413657e86a0da7408383d84",
+        "bytes": 3409
+      }
+    },
+    "files": {
+      "week1/.cache/torch/hub/checkpoints/dinov2_vits14_pretrain.pth": {
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+        "bytes": 88283115
+      },
+      "week3/pilot-manifest.csv": {
+        "sha256": "12e51653c1ff55490a2cfa5f4444982b3376ffb730cf0109b63c04d83f3802ac",
+        "bytes": 215098
+      },
+      "week5/README.md": {
+        "sha256": "d17a35d2109388d542b5f345021ebe30275b9014e645111e292cb915cb0fc525",
+        "bytes": 2335
+      },
+      "week5/acceptance/freeze-second-pool-2026-11-03/roles-view-v1.json": {
+        "sha256": "2d11d8a88b5c14e985fcbfe002e76ba3ccd3e2906b83b3982c30dd06ac3d616f",
+        "bytes": 23229
+      },
+      "week5/acceptance/freeze-v1-2026-11-02/check_freeze_conditions.py": {
+        "sha256": "f1b309788973143336d2ac29194d132cff307d4d5c4bef68fd781be94c6398a4",
+        "bytes": 5702
+      },
+      "week5/acceptance/freeze-v1-2026-11-02/design-check.json": {
+        "sha256": "f937cee6d231688fa494903b6e9902e98af198659b7a869f31868b73bf14e2a9",
+        "bytes": 8527
+      },
+      "week5/config-second-pool-v1.json": {
+        "sha256": "e01e8ffddbc36f66e2bc8c196789c42473d995fd1ca00a5a8fe0791561203162",
+        "bytes": 6739
+      },
+      "week5/config-v1.json": {
+        "sha256": "97259d7990ae6e393840d3552537f75863cc1ce25a43916ed67e8823171a01ec",
+        "bytes": 13259
+      },
+      "week5/protocol-second-pool-v1.md": {
+        "sha256": "1bff0fa2355253838944e5682f15ec758ade8e197281d4858c06f838d01d077f",
+        "bytes": 9045
+      },
+      "week5/protocol-v1.md": {
+        "sha256": "735ea9457451fbadb16abe8b42b22e3b7fd25789533192231134e93180eaeadf",
+        "bytes": 20094
+      },
+      "week5/week5-protocol-draft.md": {
+        "sha256": "6d027c3263db09e620f91d02d4af3eaf7c76ca5a7189814e7fc1eb0ccc28f6fc",
+        "bytes": 20000
+      },
+      "week5/第五阶段draft2复核-2026-11-02.md": {
+        "sha256": "85c020d40d062507eff5c82c24fd771abba8fc15e8560ed283119fc45d37bce2",
+        "bytes": 6535
+      },
+      "week5/第五阶段任务书-2026-11-02.md": {
+        "sha256": "a8e78d688b63b982f41d44a9fd51e6979344d081fc8f3a97834a1f3300950dbc",
+        "bytes": 10289
+      },
+      "week5/第五阶段协议冻结记录-2026-11-02.md": {
+        "sha256": "a17b33700ec688299d9fc3396609718467d03ee6cfc18d05b35b7a86f194ee3b",
+        "bytes": 3110
+      },
+      "week6/acceptance/route-b-entry-review-2026-11-04/checks.json": {
+        "sha256": "29855172e56a2f57ad0f595ae1ec42ca6d335aa5e065687ae3d29645aad818d5",
+        "bytes": 586
+      },
+      "week6/acceptance/route-b-evaluation-tests-2026-11-04/checks.json": {
+        "sha256": "89f81346b6fecd272a4779fd3badcf3fa287285a263bc6578c217170329a52a0",
+        "bytes": 233
+      },
+      "week6/acceptance/route-b-kickoff-2026-11-03/check_ladder_endpoints.py": {
+        "sha256": "fa087121658677a909eef37f426cba75effe3e537467abe8945e67a75b19b3c1",
+        "bytes": 2858
+      },
+      "week6/acceptance/route-b-kickoff-2026-11-03/endpoint-audit-independent.json": {
+        "sha256": "f3a21c5e62b2d1b7913b5f23306ccef38a538934a57a7c6732b4309a9a8f74b6",
+        "bytes": 2225
+      },
+      "week6/acceptance/route-b-kickoff-2026-11-03/gain-ladder-reviewed.json": {
+        "sha256": "d30c0234768259785a3841e246fde79fe63aa6fa364be7addf85a0b2fad79aa3",
+        "bytes": 4315
+      },
+      "week6/acceptance/route-b-kickoff-2026-11-03/input-check.json": {
+        "sha256": "43103ee24f8504dbdb4a54705c92d716f258a7be49dcd5043d46588023e73c70",
+        "bytes": 4570
+      },
+      "week6/acceptance/route-b-layout-2026-11-03/layout-acceptance.json": {
+        "sha256": "43921ddf94716c27416c120d0dc6374f56027bb3848ccdb9c2bf772603f740b1",
+        "bytes": 1874
+      },
+      "week6/acceptance/route-b-layout-2026-11-03/layout-plan.json": {
+        "sha256": "45d17ecfd263f125ad489d552bda869a658cd098e805019cca64b66881ff62ce",
+        "bytes": 28238
+      },
+      "week6/acceptance/route-b-layout-2026-11-03/roles-route-b-60.json": {
+        "sha256": "4d680be464db856e72e3422c273ea08ad4452413063d1881ad714786a17c2314",
+        "bytes": 17282
+      },
+      "week6/acceptance/test_route_b_evaluation.py": {
+        "sha256": "33744b5a2ed1b86f7308b5476e17511723d22c6039be91c7694eaa44127b6aea",
+        "bytes": 2699
+      },
+      "week6/acceptance/test_route_b_gates.py": {
+        "sha256": "44172a46a78ada24e820607b689d40234e57fba91eb49b597cbf2f9bebf6c85d",
+        "bytes": 5026
+      },
+      "week6/config-route-b-v1.json": {
+        "sha256": "13cc01ede9d5a6182710699a592a7dad19b61fe7e7e5ca2d50effbaa6c5d79fb",
+        "bytes": 1811
+      },
+      "week6/evaluate_route_b.py": {
+        "sha256": "efa4c1147ee34999ca06c5868519b2c11894c7b2adf94de57523908e996bf45c",
+        "bytes": 5223
+      },
+      "week6/outputs/pilot-view-448/scores.csv": {
+        "sha256": "6d3f3957b835a19ff7d9940beaaae448e0d5f6c23e0a78e8e99c1003905e1f9a",
+        "bytes": 40819
+      },
+      "week6/protocol-route-b-v1.md": {
+        "sha256": "6710c970feb14c0c91857454233f22f7f8e78dc09019211d0534a6ae1bbf34b7",
+        "bytes": 7879
+      },
+      "week6/route_b.py": {
+        "sha256": "80ca296886b084d9964446e13836cc15686007a127f605417699faf3d60f5ce0",
+        "bytes": 26509
+      },
+      "week6/score_view.py": {
+        "sha256": "16c525ddf147fc1c98bc971f84f3f4c63afa12c7b750875d5506e17ca4ffd73d",
+        "bytes": 11464
+      },
+      "week6/verify_route_b.py": {
+        "sha256": "c92a62e5462386ab48a496b92575a57cd05a179c4ff4ede02804b310187e3a91",
+        "bytes": 6261
+      },
+      "week7/acceptance/stage7-background-2026-11-05/layout-acceptance.json": {
+        "sha256": "54e06a6be51a88afbf536ca5a993e109d11aee9816ab791d8665fd0bec988bb6",
+        "bytes": 1514
+      },
+      "week7/acceptance/stage7-background-2026-11-05/roles-background-v1.json": {
+        "sha256": "3f25250965a078865181adc8ee7c2ac7d28eef4c5c933b89f610e432ec3010a1",
+        "bytes": 27316
+      },
+      "week7/acceptance/stage7-background-2026-11-05/synthetic-regression-final.json": {
+        "sha256": "ba778ba1c903cd1ab766f69ea31a4df1b4548a85600673321caf6e9aabee17fb",
+        "bytes": 6188
+      },
+      "week7/acceptance/stage7-kickoff-2026-11-05/burst_similarity.py": {
+        "sha256": "57a2497e0f17e52ee8a39f728bb409b4e8db4de05f5d5c8c8ce3e51a82205502",
+        "bytes": 4607
+      },
+      "week7/background.py": {
+        "sha256": "99ba280ae3ac6928dcb2b8839252f5c1b93620301e1a9def32e9c32b3c1fa4ac",
+        "bytes": 57314
+      },
+      "week7/config-background-v1.json": {
+        "sha256": "7daf9271f3773e3b372495ccad039cc5168c6c4a6532631d13d50c4a68aca84e",
+        "bytes": 2149
+      },
+      "week7/diagnose_background.py": {
+        "sha256": "c8a6db204445061646a75328519739b7ec7e0db86910bbd1276e18d9c22834b7",
+        "bytes": 3360
+      },
+      "week7/protocol-background-v1.md": {
+        "sha256": "f7fb3b1d4a58f3951a493408f008d1819d3ac7c3ff6f318b26034618cf5502cb",
+        "bytes": 8410
+      },
+      "week7/verify_background.py": {
+        "sha256": "69fdf6067b5360f1472efb3ea088447035c2d7d83f6a62aa3c8a92f48497262d",
+        "bytes": 9536
+      }
+    }
+  }
+}

@@ -1,0 +1,2906 @@
+{
+  "status": "STAGE8_GROUPING_EVIDENCE",
+  "pool": "test/good/background",
+  "target": 32,
+  "roles_file": {
+    "path": "week7/acceptance/stage7-background-2026-11-05/roles-background-v1.json",
+    "sha256": "3f25250965a078865181adc8ee7c2ac7d28eef4c5c933b89f610e432ec3010a1"
+  },
+  "counts": {
+    "reference": 8,
+    "calibration": 61,
+    "eval_normal": 32
+  },
+  "lab": {
+    "commit": "abc474f2025ae0aab4066b3b7492ecc92fe5c207",
+    "used": [
+      "src.grouping.group_components",
+      "src.counting.count_allocations"
+    ]
+  },
+  "exif": {
+    "images_examined": 101,
+    "images_with_zero_exif_tags": 101,
+    "distinct_exif_tag_counts": {
+      "0": 101
+    },
+    "distinct_mtime_values": 3,
+    "mtime_first": 1793500748,
+    "mtime_last": 1793500753,
+    "mtime_span_seconds": 5,
+    "note": "EXIF 已剥离、mtime 为数据集解包时间，均不含采集时刻或批次标识"
+  },
+  "frame_ids": {
+    "n_test_normals": 93,
+    "id_min": 7728,
+    "id_max": 8149,
+    "id_span": 422,
+    "density": 0.2204,
+    "gap_histogram": {
+      "1": 79,
+      "2": 10,
+      "3": 2,
+      "316": 1
+    },
+    "distinct_content_sha256": 93,
+    "same_content_pairs": []
+  },
+  "hash_separation": {
+    "near_pairs_id_le2": 157,
+    "far_pairs_id_gt50": 2005,
+    "by_threshold": {
+      "4": {
+        "near_frac": 0.0892,
+        "far_frac": 0.008,
+        "lift": 11.17
+      },
+      "6": {
+        "near_frac": 0.1274,
+        "far_frac": 0.0175,
+        "lift": 7.3
+      },
+      "8": {
+        "near_frac": 0.1783,
+        "far_frac": 0.0349,
+        "lift": 5.11
+      },
+      "10": {
+        "near_frac": 0.2293,
+        "far_frac": 0.0559,
+        "lift": 4.1
+      },
+      "12": {
+        "near_frac": 0.3057,
+        "far_frac": 0.0818,
+        "lift": 3.74
+      }
+    },
+    "note": "近帧组与远帧组的差值给出 dHash 阈值的图像侧依据；不涉及任何模型分数"
+  },
+  "rules": {
+    "id_le1": {
+      "rationale": "帧号相差不超过 1：同一连拍或相邻两拍，允许中间帧被其他条件占用",
+      "n_edges": 79,
+      "n_groups": 14,
+      "max_group": 18,
+      "max_group_dhash_diameter": 55,
+      "size_histogram": {
+        "1": 3,
+        "3": 1,
+        "4": 3,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "12": 1,
+        "18": 1
+      },
+      "target": 32,
+      "allocations": 285,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 14,
+        "eligible_images": 93,
+        "allocations": 285,
+        "feasible": true
+      },
+      "groups": [
+        {
+          "size": 18,
+          "members": [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7736.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7745.png"
+          ]
+        },
+        {
+          "size": 3,
+          "members": [
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7748.png",
+            "test/good/background/IMG_7749.png"
+          ]
+        },
+        {
+          "size": 10,
+          "members": [
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7753.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7760.png"
+          ]
+        },
+        {
+          "size": 10,
+          "members": [
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7768.png",
+            "test/good/background/IMG_7769.png",
+            "test/good/background/IMG_7770.png",
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 4,
+          "members": [
+            "test/good/background/IMG_7773.png",
+            "test/good/background/IMG_7774.png",
+            "test/good/background/IMG_7775.png",
+            "test/good/background/IMG_7776.png"
+          ]
+        },
+        {
+          "size": 12,
+          "members": [
+            "test/good/background/IMG_7778.png",
+            "test/good/background/IMG_7779.png",
+            "test/good/background/IMG_7780.png",
+            "test/good/background/IMG_7781.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7785.png",
+            "test/good/background/IMG_7786.png",
+            "test/good/background/IMG_7787.png",
+            "test/good/background/IMG_7788.png",
+            "test/good/background/IMG_7789.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 8,
+          "members": [
+            "test/good/background/IMG_7793.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 9,
+          "members": [
+            "test/good/background/IMG_8116.png",
+            "test/good/background/IMG_8117.png",
+            "test/good/background/IMG_8118.png",
+            "test/good/background/IMG_8119.png",
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8121.png",
+            "test/good/background/IMG_8122.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 4,
+          "members": [
+            "test/good/background/IMG_8126.png",
+            "test/good/background/IMG_8127.png",
+            "test/good/background/IMG_8128.png",
+            "test/good/background/IMG_8129.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8132.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 4,
+          "members": [
+            "test/good/background/IMG_8136.png",
+            "test/good/background/IMG_8137.png",
+            "test/good/background/IMG_8138.png",
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 8,
+          "members": [
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png",
+            "test/good/background/IMG_8144.png",
+            "test/good/background/IMG_8145.png",
+            "test/good/background/IMG_8146.png",
+            "test/good/background/IMG_8147.png",
+            "test/good/background/IMG_8148.png",
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 8,
+        "images_in_straddling_groups": 78,
+        "eval_images_sharing_group_with_calibration": 31,
+        "examples": [
+          [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png"
+          ],
+          [
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7748.png",
+            "test/good/background/IMG_7749.png"
+          ],
+          [
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7753.png",
+            "test/good/background/IMG_7754.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 0,
+        "reference_images_with_test_neighbour": 0,
+        "eval_images_with_reference_neighbour": 0,
+        "example_pairs": []
+      }
+    },
+    "id_le2": {
+      "rationale": "帧号相差不超过 2：同一连拍或相邻两拍，允许中间帧被其他条件占用",
+      "n_edges": 157,
+      "n_groups": 4,
+      "max_group": 66,
+      "max_group_dhash_diameter": 59,
+      "size_histogram": {
+        "6": 1,
+        "8": 1,
+        "13": 1,
+        "66": 1
+      },
+      "target": 32,
+      "allocations": 0,
+      "feasible": false,
+      "with_reference_isolation": {
+        "eligible_groups": 4,
+        "eligible_images": 93,
+        "allocations": 0,
+        "feasible": false
+      },
+      "groups": [
+        {
+          "size": 66,
+          "members": [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7736.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7748.png",
+            "test/good/background/IMG_7749.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7753.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7760.png",
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7768.png",
+            "test/good/background/IMG_7769.png",
+            "test/good/background/IMG_7770.png",
+            "test/good/background/IMG_7771.png",
+            "test/good/background/IMG_7773.png",
+            "test/good/background/IMG_7774.png",
+            "test/good/background/IMG_7775.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7778.png",
+            "test/good/background/IMG_7779.png",
+            "test/good/background/IMG_7780.png",
+            "test/good/background/IMG_7781.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7785.png",
+            "test/good/background/IMG_7786.png",
+            "test/good/background/IMG_7787.png",
+            "test/good/background/IMG_7788.png",
+            "test/good/background/IMG_7789.png",
+            "test/good/background/IMG_7791.png",
+            "test/good/background/IMG_7793.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 13,
+          "members": [
+            "test/good/background/IMG_8116.png",
+            "test/good/background/IMG_8117.png",
+            "test/good/background/IMG_8118.png",
+            "test/good/background/IMG_8119.png",
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8121.png",
+            "test/good/background/IMG_8122.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8124.png",
+            "test/good/background/IMG_8126.png",
+            "test/good/background/IMG_8127.png",
+            "test/good/background/IMG_8128.png",
+            "test/good/background/IMG_8129.png"
+          ]
+        },
+        {
+          "size": 6,
+          "members": [
+            "test/good/background/IMG_8132.png",
+            "test/good/background/IMG_8134.png",
+            "test/good/background/IMG_8136.png",
+            "test/good/background/IMG_8137.png",
+            "test/good/background/IMG_8138.png",
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 8,
+          "members": [
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png",
+            "test/good/background/IMG_8144.png",
+            "test/good/background/IMG_8145.png",
+            "test/good/background/IMG_8146.png",
+            "test/good/background/IMG_8147.png",
+            "test/good/background/IMG_8148.png",
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 4,
+        "images_in_straddling_groups": 93,
+        "eval_images_sharing_group_with_calibration": 32,
+        "examples": [
+          [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png"
+          ],
+          [
+            "test/good/background/IMG_8116.png",
+            "test/good/background/IMG_8117.png",
+            "test/good/background/IMG_8118.png",
+            "test/good/background/IMG_8119.png"
+          ],
+          [
+            "test/good/background/IMG_8132.png",
+            "test/good/background/IMG_8134.png",
+            "test/good/background/IMG_8136.png",
+            "test/good/background/IMG_8137.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 0,
+        "reference_images_with_test_neighbour": 0,
+        "eval_images_with_reference_neighbour": 0,
+        "example_pairs": []
+      }
+    },
+    "id_le3": {
+      "rationale": "帧号相差不超过 3：同一连拍或相邻两拍，允许中间帧被其他条件占用",
+      "n_edges": 231,
+      "n_groups": 2,
+      "max_group": 66,
+      "max_group_dhash_diameter": 59,
+      "size_histogram": {
+        "27": 1,
+        "66": 1
+      },
+      "target": 32,
+      "allocations": 0,
+      "feasible": false,
+      "with_reference_isolation": {
+        "eligible_groups": 2,
+        "eligible_images": 93,
+        "allocations": 0,
+        "feasible": false
+      },
+      "groups": [
+        {
+          "size": 66,
+          "members": [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7736.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7748.png",
+            "test/good/background/IMG_7749.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7753.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7760.png",
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7768.png",
+            "test/good/background/IMG_7769.png",
+            "test/good/background/IMG_7770.png",
+            "test/good/background/IMG_7771.png",
+            "test/good/background/IMG_7773.png",
+            "test/good/background/IMG_7774.png",
+            "test/good/background/IMG_7775.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7778.png",
+            "test/good/background/IMG_7779.png",
+            "test/good/background/IMG_7780.png",
+            "test/good/background/IMG_7781.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7785.png",
+            "test/good/background/IMG_7786.png",
+            "test/good/background/IMG_7787.png",
+            "test/good/background/IMG_7788.png",
+            "test/good/background/IMG_7789.png",
+            "test/good/background/IMG_7791.png",
+            "test/good/background/IMG_7793.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 27,
+          "members": [
+            "test/good/background/IMG_8116.png",
+            "test/good/background/IMG_8117.png",
+            "test/good/background/IMG_8118.png",
+            "test/good/background/IMG_8119.png",
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8121.png",
+            "test/good/background/IMG_8122.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8124.png",
+            "test/good/background/IMG_8126.png",
+            "test/good/background/IMG_8127.png",
+            "test/good/background/IMG_8128.png",
+            "test/good/background/IMG_8129.png",
+            "test/good/background/IMG_8132.png",
+            "test/good/background/IMG_8134.png",
+            "test/good/background/IMG_8136.png",
+            "test/good/background/IMG_8137.png",
+            "test/good/background/IMG_8138.png",
+            "test/good/background/IMG_8139.png",
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png",
+            "test/good/background/IMG_8144.png",
+            "test/good/background/IMG_8145.png",
+            "test/good/background/IMG_8146.png",
+            "test/good/background/IMG_8147.png",
+            "test/good/background/IMG_8148.png",
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 2,
+        "images_in_straddling_groups": 93,
+        "eval_images_sharing_group_with_calibration": 32,
+        "examples": [
+          [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png"
+          ],
+          [
+            "test/good/background/IMG_8116.png",
+            "test/good/background/IMG_8117.png",
+            "test/good/background/IMG_8118.png",
+            "test/good/background/IMG_8119.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 0,
+        "reference_images_with_test_neighbour": 0,
+        "eval_images_with_reference_neighbour": 0,
+        "example_pairs": []
+      }
+    },
+    "dh_le4": {
+      "rationale": "dHash 海明距离不超过 4：内容近似重复（随机配对基线 2% 在 ≤4）",
+      "n_edges": 77,
+      "n_groups": 66,
+      "max_group": 18,
+      "max_group_dhash_diameter": 12,
+      "size_histogram": {
+        "1": 61,
+        "2": 1,
+        "3": 2,
+        "6": 1,
+        "18": 1
+      },
+      "target": 32,
+      "allocations": 1672489259948266974,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 65,
+        "eligible_images": 75,
+        "allocations": 1672464128242708178,
+        "feasible": true
+      },
+      "groups": [
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7728.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7729.png"
+          ]
+        },
+        {
+          "size": 6,
+          "members": [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7764.png"
+          ]
+        },
+        {
+          "size": 18,
+          "members": [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8142.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7736.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7763.png"
+          ]
+        },
+        {
+          "size": 3,
+          "members": [
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7794.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7743.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7744.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7745.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7747.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7748.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7749.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7753.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7755.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7757.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7760.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7762.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7766.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7768.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7769.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7770.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7773.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7774.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7775.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7778.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7779.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7780.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7781.png"
+          ]
+        },
+        {
+          "size": 3,
+          "members": [
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7785.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7786.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7787.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7788.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7789.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7793.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7795.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7797.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8116.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8117.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8118.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8119.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8120.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8121.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8122.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8126.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8127.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8128.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8129.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8132.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8136.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8137.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8138.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8143.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8144.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8145.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8146.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8147.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8148.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 4,
+        "images_in_straddling_groups": 30,
+        "eval_images_sharing_group_with_calibration": 15,
+        "examples": [
+          [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7756.png"
+          ],
+          [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png"
+          ],
+          [
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7794.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 11,
+        "reference_images_with_test_neighbour": 1,
+        "eval_images_with_reference_neighbour": 6,
+        "example_pairs": [
+          [
+            "train/good/background/IMG_7509.png",
+            "test/good/background/IMG_7731.png"
+          ],
+          [
+            "train/good/background/IMG_7509.png",
+            "test/good/background/IMG_7732.png"
+          ],
+          [
+            "train/good/background/IMG_7509.png",
+            "test/good/background/IMG_7733.png"
+          ]
+        ]
+      }
+    },
+    "dh_le6": {
+      "rationale": "dHash 海明距离不超过 6：内容近似重复（随机配对基线 2% 在 ≤4）",
+      "n_edges": 140,
+      "n_groups": 55,
+      "max_group": 20,
+      "max_group_dhash_diameter": 18,
+      "size_histogram": {
+        "1": 51,
+        "2": 1,
+        "4": 1,
+        "16": 1,
+        "20": 1
+      },
+      "target": 32,
+      "allocations": 616479408099632,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 53,
+        "eligible_images": 57,
+        "allocations": 607668465677987,
+        "feasible": true
+      },
+      "groups": [
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7728.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7788.png"
+          ]
+        },
+        {
+          "size": 16,
+          "members": [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_8121.png"
+          ]
+        },
+        {
+          "size": 20,
+          "members": [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7736.png"
+          ]
+        },
+        {
+          "size": 4,
+          "members": [
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7747.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7748.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7749.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7753.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7755.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7760.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7762.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7768.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7769.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7770.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7773.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7774.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7775.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7778.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7779.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7780.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7781.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7785.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7786.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7787.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7789.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7793.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7795.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8116.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8117.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8118.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8119.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8120.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8122.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8126.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8127.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8128.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8129.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8132.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8136.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8137.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8138.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8144.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8145.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8146.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8147.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8148.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 3,
+        "images_in_straddling_groups": 40,
+        "eval_images_sharing_group_with_calibration": 18,
+        "examples": [
+          [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png"
+          ],
+          [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png"
+          ],
+          [
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 17,
+        "reference_images_with_test_neighbour": 2,
+        "eval_images_with_reference_neighbour": 8,
+        "example_pairs": [
+          [
+            "train/good/background/IMG_7508.png",
+            "test/good/background/IMG_7742.png"
+          ],
+          [
+            "train/good/background/IMG_7508.png",
+            "test/good/background/IMG_7757.png"
+          ],
+          [
+            "train/good/background/IMG_7509.png",
+            "test/good/background/IMG_7731.png"
+          ]
+        ]
+      }
+    },
+    "dh_le8": {
+      "rationale": "dHash 海明距离不超过 8：内容近似重复（随机配对基线 2% 在 ≤4）",
+      "n_edges": 237,
+      "n_groups": 44,
+      "max_group": 23,
+      "max_group_dhash_diameter": 23,
+      "size_histogram": {
+        "1": 41,
+        "7": 1,
+        "22": 1,
+        "23": 1
+      },
+      "target": 32,
+      "allocations": 104899244724,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 41,
+        "eligible_images": 41,
+        "allocations": 350343565,
+        "feasible": true
+      },
+      "groups": [
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7728.png"
+          ]
+        },
+        {
+          "size": 7,
+          "members": [
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7788.png",
+            "test/good/background/IMG_8138.png"
+          ]
+        },
+        {
+          "size": 23,
+          "members": [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7749.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png",
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8121.png",
+            "test/good/background/IMG_8122.png",
+            "test/good/background/IMG_8127.png"
+          ]
+        },
+        {
+          "size": 22,
+          "members": [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8132.png",
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7736.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7748.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7753.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7760.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7768.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7769.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7770.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7773.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7774.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7775.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7778.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7779.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7780.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7781.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7785.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7786.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7787.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7789.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7793.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8116.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8117.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8118.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8119.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8126.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8128.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8129.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8136.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8137.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8144.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8145.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8146.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8147.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8148.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 3,
+        "images_in_straddling_groups": 52,
+        "eval_images_sharing_group_with_calibration": 20,
+        "examples": [
+          [
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png"
+          ],
+          [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png"
+          ],
+          [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 24,
+        "reference_images_with_test_neighbour": 3,
+        "eval_images_with_reference_neighbour": 11,
+        "example_pairs": [
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7729.png"
+          ],
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7784.png"
+          ],
+          [
+            "train/good/background/IMG_7508.png",
+            "test/good/background/IMG_7742.png"
+          ]
+        ]
+      }
+    },
+    "dh_le10": {
+      "rationale": "dHash 海明距离不超过 10：内容近似重复（随机配对基线 2% 在 ≤4）",
+      "n_edges": 368,
+      "n_groups": 29,
+      "max_group": 28,
+      "max_group_dhash_diameter": 28,
+      "size_histogram": {
+        "1": 24,
+        "2": 2,
+        "10": 1,
+        "27": 1,
+        "28": 1
+      },
+      "target": 32,
+      "allocations": 213879,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 26,
+        "eligible_images": 28,
+        "allocations": 0,
+        "feasible": false
+      },
+      "groups": [
+        {
+          "size": 10,
+          "members": [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7748.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7785.png",
+            "test/good/background/IMG_7788.png",
+            "test/good/background/IMG_8138.png"
+          ]
+        },
+        {
+          "size": 27,
+          "members": [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7749.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png",
+            "test/good/background/IMG_8119.png",
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8121.png",
+            "test/good/background/IMG_8122.png",
+            "test/good/background/IMG_8126.png",
+            "test/good/background/IMG_8127.png",
+            "test/good/background/IMG_8144.png",
+            "test/good/background/IMG_8149.png"
+          ]
+        },
+        {
+          "size": 28,
+          "members": [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7760.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7769.png",
+            "test/good/background/IMG_7770.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_7800.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8132.png",
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png",
+            "test/good/background/IMG_8147.png",
+            "test/good/background/IMG_8148.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7736.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7753.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7768.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7773.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7774.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7775.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7778.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7779.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7780.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7781.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7786.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7787.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7789.png",
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7793.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8116.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8117.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8118.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8128.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_8129.png",
+            "test/good/background/IMG_8137.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8136.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8145.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8146.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 4,
+        "images_in_straddling_groups": 67,
+        "eval_images_sharing_group_with_calibration": 28,
+        "examples": [
+          [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7748.png"
+          ],
+          [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png"
+          ],
+          [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 37,
+        "reference_images_with_test_neighbour": 4,
+        "eval_images_with_reference_neighbour": 17,
+        "example_pairs": [
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7729.png"
+          ],
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7782.png"
+          ],
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7784.png"
+          ]
+        ]
+      }
+    },
+    "dh_le12": {
+      "rationale": "dHash 海明距离不超过 12：内容近似重复（随机配对基线 2% 在 ≤4）",
+      "n_edges": 488,
+      "n_groups": 20,
+      "max_group": 58,
+      "max_group_dhash_diameter": 42,
+      "size_histogram": {
+        "1": 16,
+        "3": 2,
+        "13": 1,
+        "58": 1
+      },
+      "target": 32,
+      "allocations": 562,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 17,
+        "eligible_images": 21,
+        "allocations": 0,
+        "feasible": false
+      },
+      "groups": [
+        {
+          "size": 13,
+          "members": [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7748.png",
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7785.png",
+            "test/good/background/IMG_7787.png",
+            "test/good/background/IMG_7788.png",
+            "test/good/background/IMG_8136.png",
+            "test/good/background/IMG_8138.png",
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 58,
+          "members": [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7736.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png",
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png",
+            "test/good/background/IMG_7747.png",
+            "test/good/background/IMG_7749.png",
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7753.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7760.png",
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7765.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png",
+            "test/good/background/IMG_7769.png",
+            "test/good/background/IMG_7770.png",
+            "test/good/background/IMG_7776.png",
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png",
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_7800.png",
+            "test/good/background/IMG_8119.png",
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8121.png",
+            "test/good/background/IMG_8122.png",
+            "test/good/background/IMG_8123.png",
+            "test/good/background/IMG_8126.png",
+            "test/good/background/IMG_8127.png",
+            "test/good/background/IMG_8128.png",
+            "test/good/background/IMG_8132.png",
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png",
+            "test/good/background/IMG_8144.png",
+            "test/good/background/IMG_8147.png",
+            "test/good/background/IMG_8148.png",
+            "test/good/background/IMG_8149.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7768.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7773.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7774.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7775.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7778.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7779.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7780.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7781.png"
+          ]
+        },
+        {
+          "size": 3,
+          "members": [
+            "test/good/background/IMG_7786.png",
+            "test/good/background/IMG_7789.png",
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7793.png"
+          ]
+        },
+        {
+          "size": 3,
+          "members": [
+            "test/good/background/IMG_8116.png",
+            "test/good/background/IMG_8129.png",
+            "test/good/background/IMG_8137.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8117.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8118.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8145.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8146.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 4,
+        "images_in_straddling_groups": 77,
+        "eval_images_sharing_group_with_calibration": 30,
+        "examples": [
+          [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png",
+            "test/good/background/IMG_7745.png",
+            "test/good/background/IMG_7748.png"
+          ],
+          [
+            "test/good/background/IMG_7730.png",
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png"
+          ],
+          [
+            "test/good/background/IMG_7786.png",
+            "test/good/background/IMG_7789.png",
+            "test/good/background/IMG_8134.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 51,
+        "reference_images_with_test_neighbour": 5,
+        "eval_images_with_reference_neighbour": 23,
+        "example_pairs": [
+          [
+            "train/good/background/IMG_7351.png",
+            "test/good/background/IMG_7793.png"
+          ],
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7728.png"
+          ],
+          [
+            "train/good/background/IMG_7461.png",
+            "test/good/background/IMG_7729.png"
+          ]
+        ]
+      }
+    },
+    "id_le3_and_dh_le12": {
+      "rationale": "帧号相邻且内容接近：避免把背靠背拍摄的不同场景并成一组",
+      "n_edges": 67,
+      "n_groups": 52,
+      "max_group": 8,
+      "max_group_dhash_diameter": 20,
+      "size_histogram": {
+        "1": 39,
+        "2": 6,
+        "3": 1,
+        "5": 1,
+        "6": 3,
+        "8": 2
+      },
+      "target": 32,
+      "allocations": 59275777804826,
+      "feasible": true,
+      "with_reference_isolation": {
+        "eligible_groups": 52,
+        "eligible_images": 93,
+        "allocations": 59275777804826,
+        "feasible": true
+      },
+      "groups": [
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7730.png"
+          ]
+        },
+        {
+          "size": 8,
+          "members": [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png",
+            "test/good/background/IMG_7735.png",
+            "test/good/background/IMG_7736.png",
+            "test/good/background/IMG_7737.png",
+            "test/good/background/IMG_7738.png"
+          ]
+        },
+        {
+          "size": 6,
+          "members": [
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png",
+            "test/good/background/IMG_7743.png",
+            "test/good/background/IMG_7744.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7745.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7747.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7748.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7749.png"
+          ]
+        },
+        {
+          "size": 6,
+          "members": [
+            "test/good/background/IMG_7751.png",
+            "test/good/background/IMG_7752.png",
+            "test/good/background/IMG_7754.png",
+            "test/good/background/IMG_7755.png",
+            "test/good/background/IMG_7758.png",
+            "test/good/background/IMG_7760.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7753.png"
+          ]
+        },
+        {
+          "size": 8,
+          "members": [
+            "test/good/background/IMG_7756.png",
+            "test/good/background/IMG_7757.png",
+            "test/good/background/IMG_7759.png",
+            "test/good/background/IMG_7762.png",
+            "test/good/background/IMG_7763.png",
+            "test/good/background/IMG_7764.png",
+            "test/good/background/IMG_7766.png",
+            "test/good/background/IMG_7767.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7765.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7768.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7769.png",
+            "test/good/background/IMG_7770.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7771.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7773.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7774.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7775.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7776.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7778.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7779.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7780.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7781.png"
+          ]
+        },
+        {
+          "size": 6,
+          "members": [
+            "test/good/background/IMG_7782.png",
+            "test/good/background/IMG_7783.png",
+            "test/good/background/IMG_7784.png",
+            "test/good/background/IMG_7785.png",
+            "test/good/background/IMG_7787.png",
+            "test/good/background/IMG_7788.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7786.png",
+            "test/good/background/IMG_7789.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7791.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_7793.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_7794.png",
+            "test/good/background/IMG_7795.png"
+          ]
+        },
+        {
+          "size": 5,
+          "members": [
+            "test/good/background/IMG_7796.png",
+            "test/good/background/IMG_7797.png",
+            "test/good/background/IMG_7798.png",
+            "test/good/background/IMG_7799.png",
+            "test/good/background/IMG_7800.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8116.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8117.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8118.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8119.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_8120.png",
+            "test/good/background/IMG_8122.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8121.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8123.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8124.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8126.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8127.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8128.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8129.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8132.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8134.png"
+          ]
+        },
+        {
+          "size": 3,
+          "members": [
+            "test/good/background/IMG_8136.png",
+            "test/good/background/IMG_8138.png",
+            "test/good/background/IMG_8139.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8137.png"
+          ]
+        },
+        {
+          "size": 2,
+          "members": [
+            "test/good/background/IMG_8142.png",
+            "test/good/background/IMG_8143.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8144.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8145.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8146.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8147.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8148.png"
+          ]
+        },
+        {
+          "size": 1,
+          "members": [
+            "test/good/background/IMG_8149.png"
+          ]
+        }
+      ],
+      "current_split": {
+        "straddling_groups": 10,
+        "images_in_straddling_groups": 47,
+        "eval_images_sharing_group_with_calibration": 19,
+        "examples": [
+          [
+            "test/good/background/IMG_7728.png",
+            "test/good/background/IMG_7729.png"
+          ],
+          [
+            "test/good/background/IMG_7731.png",
+            "test/good/background/IMG_7732.png",
+            "test/good/background/IMG_7733.png",
+            "test/good/background/IMG_7734.png"
+          ],
+          [
+            "test/good/background/IMG_7739.png",
+            "test/good/background/IMG_7740.png",
+            "test/good/background/IMG_7741.png",
+            "test/good/background/IMG_7742.png"
+          ]
+        ]
+      },
+      "reference_leakage": {
+        "cross_pool_pairs": 0,
+        "reference_images_with_test_neighbour": 0,
+        "eval_images_with_reference_neighbour": 0,
+        "example_pairs": []
+      }
+    }
+  },
+  "scoring_inputs": []
+}

@@ -1,0 +1,138 @@
+{
+  "snapshot_date": "2026-11-06",
+  "purpose": "Selected research reports, grouping evidence and completed engineering run; not a full data release",
+  "source_lab_commit": "abc474f2025ae0aab4066b3b7492ecc92fe5c207",
+  "files": {
+    "week5/week5-report-route-c-v1.md": {
+      "sha256": "c866e6a05902a9a1b86d7b41805e1dba2950c10ba0ba24fc874f5e2364af330f",
+      "bytes": 14047
+    },
+    "week6/week6-report-route-b-v5.md": {
+      "sha256": "a100990a24f3edda92f63043dc0a98f2633735da1dd8062e4d21b42ac5839212",
+      "bytes": 10469
+    },
+    "week7/week7-report-background-v2.md": {
+      "sha256": "5bc651df79913a6f8e939ca711bc65629789c718aa69a0b183c019be5b5626cc",
+      "bytes": 8794
+    },
+    "week7/stage7-closure-2026-11-05.md": {
+      "sha256": "933008b149a9e66d7f49fa227aad37d958396f05a13276dd546398fc96c3ba86",
+      "bytes": 1234
+    },
+    "week8/README.md": {
+      "sha256": "9de019b41835880c2f53ca74f92a588d924357ba7c9d8a146ce3321c8bdd4cbd",
+      "bytes": 3020
+    },
+    "week8/stage8-grouping-2026-11-06.md": {
+      "sha256": "9e51016c2fe9be1578bd753d6c2cfb6075c34e4491ba87af59f213ddd2701ee1",
+      "bytes": 7580
+    },
+    "week8/stage8-grouped-design-decision-2026-11-06.md": {
+      "sha256": "06deda6f721671df9b5f16b5f4b3c8f73ce4fdb4be9edff4d550bcb7a4a58d6b",
+      "bytes": 6203
+    },
+    "week8/grouping_evidence.py": {
+      "sha256": "bcfcd218694534a42c8b9463e98ebb8691a2d3bb806a3e6306f22b011cb877c6",
+      "bytes": 11699
+    },
+    "week8/acceptance/stage8-grouping-2026-11-06/grouping-evidence.json": {
+      "sha256": "0ee3d64b189c5f764b172afcf6e82dd69457cd6e51354aa4f24f45bc5d0ddbf2",
+      "bytes": 84127
+    },
+    "week8/acceptance/stage8-grouping-2026-11-06/groups-dh4.csv": {
+      "sha256": "4fb5780bd9e89b88eba360d6d9912ee00cf59826900607e13d8b9577c44b9319",
+      "bytes": 3784
+    },
+    "week8/acceptance/stage8-grouping-2026-11-06/decision-check.json": {
+      "sha256": "2ed91b5c6bba613099d3ef3c0c387ea5681533ba5b2f87b565d4559215040a40",
+      "bytes": 1497
+    },
+    "week8/grouped-split-lab/.gitignore": {
+      "sha256": "0ba2d729deaba8355cb4b9757c79c1206744445794708d812846657cb5062efe",
+      "bytes": 51
+    },
+    "week8/grouped-split-lab/CONTRACT.md": {
+      "sha256": "14e30509eb2b60ac1d5970486da9445dc3dc368658ed07df230818ebb25aaf15",
+      "bytes": 5897
+    },
+    "week8/grouped-split-lab/HARNESS.md": {
+      "sha256": "80ffd745bec28a777066dd58b727e95406b5b2a08d0a018f864b70d5e3441f74",
+      "bytes": 4852
+    },
+    "week8/grouped-split-lab/PINNED.json": {
+      "sha256": "3eff5acbf54a822cc9a9f2437b1d646fe262ffe43983f4808448a4fd116ffcc2",
+      "bytes": 8666
+    },
+    "week8/grouped-split-lab/README.md": {
+      "sha256": "0e27fb4bec8ebf57477c47c3474e6cb866ff2a7ed8da546d145073e54af237fa",
+      "bytes": 660
+    },
+    "week8/grouped-split-lab/fixtures/case24-cases.json": {
+      "sha256": "a0de53199610c4197cd6e2392461c8d2c60b4d5f116fbf6d70ac40cc8d140446",
+      "bytes": 4914
+    },
+    "week8/grouped-split-lab/guard.py": {
+      "sha256": "92ce9c246b75f6f003652c2cabc2702a496c3d40d1796943b5fc0553d397dca3",
+      "bytes": 7164
+    },
+    "week8/grouped-split-lab/src/__init__.py": {
+      "sha256": "97ddfe743388fbac6f217788916e899625aea32dc5b50f0cdcf854e716b4f2b5",
+      "bytes": 66
+    },
+    "week8/grouped-split-lab/src/counting.py": {
+      "sha256": "fe9e7b2f42b603a668e4d48d68dec3f0e693c8d536e95b1c3482c97af80d88d8",
+      "bytes": 2159
+    },
+    "week8/grouped-split-lab/src/errors.py": {
+      "sha256": "1e5dba4059e490ed632d2cb1cb1e0ab109b8c5db49368c5b79b5c545c1685efc",
+      "bytes": 361
+    },
+    "week8/grouped-split-lab/src/grouping.py": {
+      "sha256": "cce62007da9a9b278c9daa8b884cbc4c17079b16009631fe0aa27e8c0fb9e557",
+      "bytes": 2457
+    },
+    "week8/grouped-split-lab/tools/gen_fixtures.py": {
+      "sha256": "6cf33006a581b77ffdbfec234e92f2ea19d494ad4b46a17bad418faff4e7921b",
+      "bytes": 2229
+    },
+    "week8/grouped-split-lab/tools/make_pinned.py": {
+      "sha256": "02cc69c84d5d79b1cac0748f4009761cca276ae47d19855047c6c96d691a8de6",
+      "bytes": 3177
+    },
+    "week8/grouped-split-lab/verify_metric.py": {
+      "sha256": "f0d23f4c86858c6b5fb4c7f1f9dfda44d6557260717c17242f00ee61066e8589",
+      "bytes": 11694
+    },
+    "week8/grouped-split-lab/autoresearch-results/run.json": {
+      "sha256": "348ec0ae56d271e6f966853e85e9f5e1524f9aabb8d61fa5a60981b3f54337dc",
+      "bytes": 1211
+    },
+    "week8/grouped-split-lab/autoresearch-results/events.jsonl": {
+      "sha256": "5afaf3059059c675fc69664f0b1274a462952b3b6fb66fd516af69327d049278",
+      "bytes": 1139
+    },
+    "week8/grouped-split-lab/autoresearch-results/logs/0000-baseline-guard.json": {
+      "sha256": "80d648ea2dc83b5c76d49312509fed1f784d8758891f0dcf8bd163f8432afc84",
+      "bytes": 891
+    },
+    "week8/grouped-split-lab/autoresearch-results/logs/0000-baseline-verify.json": {
+      "sha256": "e3773e192ea3fb3d19f512ec18f629159a7517e0f7a379157dfd7bac75fd2a5c",
+      "bytes": 2298
+    },
+    "week8/grouped-split-lab/autoresearch-results/logs/0001-guard.json": {
+      "sha256": "ab5ca7bf7083af7f724d070edcf479e8b638a13d75672a40997fad84ba43d65d",
+      "bytes": 891
+    },
+    "week8/grouped-split-lab/autoresearch-results/logs/0001-verify.json": {
+      "sha256": "5fdc7abc75815aca3d14b095eaff21c283f6c45c296234465e7e2886f87cef91",
+      "bytes": 1065
+    }
+  },
+  "omitted": [
+    "source images and masks",
+    "model weights and vendor code",
+    "full week3-week7 score and acceptance archives",
+    "local credentials and Git configuration"
+  ],
+  "historical_note": "stage8-grouped-design-decision-2026-11-06.md supersedes the stated interpretations in stage8-grouping-2026-11-06.md; original evidence preserved"
+}

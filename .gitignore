@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.scratch/
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,36 @@
+{
+  "status": "GROUPING_DECISION_CHECKED",
+  "source_sha256": "0ee3d64b189c5f764b172afcf6e82dd69457cd6e51354aa4f24f45bc5d0ddbf2",
+  "independent_method": "Pillow pixel comparisons, union-find, sparse polynomial coefficient; no model scores loaded",
+  "groups": 66,
+  "direct_reference_neighbor_images": 11,
+  "forced_calibration_groups": [
+    [
+      "test/good/background/IMG_7731.png",
+      "test/good/background/IMG_7732.png",
+      "test/good/background/IMG_7733.png",
+      "test/good/background/IMG_7734.png",
+      "test/good/background/IMG_7735.png",
+      "test/good/background/IMG_7737.png",
+      "test/good/background/IMG_7738.png",
+      "test/good/background/IMG_7751.png",
+      "test/good/background/IMG_7752.png",
+      "test/good/background/IMG_7754.png",
+      "test/good/background/IMG_7758.png",
+      "test/good/background/IMG_7765.png",
+      "test/good/background/IMG_7776.png",
+      "test/good/background/IMG_7796.png",
+      "test/good/background/IMG_7798.png",
+      "test/good/background/IMG_7799.png",
+      "test/good/background/IMG_8123.png",
+      "test/good/background/IMG_8142.png"
+    ]
+  ],
+  "eligible_eval_images": 75,
+  "grouped_allocations": 1672489259948266974,
+  "anchored_allocations": 1672464128242708178,
+  "unrestricted_allocations": 8661069563374624785150762,
+  "grouped_fraction_of_unrestricted": 1.9310424049943927e-07,
+  "anchoring_excluded_grouped_fraction": 1.502652732106236e-05,
+  "scores_read": false
+}
