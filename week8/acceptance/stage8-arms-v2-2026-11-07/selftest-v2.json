@@ -1,0 +1,136 @@
+{
+  "status": "STAGE8_ARMS_V2_SELFTEST",
+  "checks": [
+    {
+      "check": "cases_discriminate",
+      "pass": true,
+      "detail": [
+        "A_low_tail_eval",
+        "B_mid12_not_a_candidate"
+      ]
+    },
+    {
+      "check": "case_A_old_underestimates",
+      "pass": true,
+      "detail": {
+        "corrected": 20,
+        "five_rule": 0
+      }
+    },
+    {
+      "check": "case_B_old_overestimates",
+      "pass": true,
+      "detail": {
+        "corrected": 0,
+        "five_rule": 3
+      }
+    },
+    {
+      "check": "case_C_agrees",
+      "pass": true,
+      "detail": {
+        "corrected": 2,
+        "five_rule": 2
+      }
+    },
+    {
+      "check": "case_D_both_none",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "brute_force_matches_A_low_tail_eval",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "brute_force_matches_B_mid12_not_a_candidate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "brute_force_matches_C_definitions_agree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "brute_force_matches_D_no_feasible_candidate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "mutant_scan_five_rule_thresholds_caught",
+      "pass": true,
+      "detail": [
+        "A_low_tail_eval",
+        "B_mid12_not_a_candidate"
+      ]
+    },
+    {
+      "check": "candidate_family_is_61",
+      "pass": true,
+      "detail": 400
+    },
+    {
+      "check": "sample_gap_non_negative",
+      "pass": true,
+      "detail": {
+        "rows": 328,
+        "min_gap": 0
+      }
+    },
+    {
+      "check": "sample_feasible_share",
+      "pass": true,
+      "detail": {
+        "feasible": 328,
+        "rows": 400
+      }
+    }
+  ],
+  "n_checks": 13,
+  "n_failed": 0,
+  "passed": true,
+  "cases": [
+    {
+      "id": "A_low_tail_eval",
+      "note": "every calibration score is feasible; C* sits at the calibration minimum",
+      "expects_difference": true,
+      "corrected_c_star": 20,
+      "corrected_threshold": "0x1.0800000000000p+5",
+      "n_feasible_candidates": 61,
+      "five_rule_c_star": 0,
+      "differs": true
+    },
+    {
+      "id": "B_mid12_not_a_candidate",
+      "note": "MID12 is feasible but lies between two calibration scores",
+      "expects_difference": true,
+      "corrected_c_star": 0,
+      "corrected_threshold": "0x1.9000000000000p+6",
+      "n_feasible_candidates": 1,
+      "five_rule_c_star": 3,
+      "differs": true
+    },
+    {
+      "id": "C_definitions_agree",
+      "note": "agreement case, so the test is not trivially unequal",
+      "expects_difference": false,
+      "corrected_c_star": 2,
+      "corrected_threshold": "0x1.0800000000000p+5",
+      "n_feasible_candidates": 61,
+      "five_rule_c_star": 2,
+      "differs": false
+    },
+    {
+      "id": "D_no_feasible_candidate",
+      "note": "both top-two normals in the evaluation side",
+      "expects_difference": false,
+      "corrected_c_star": null,
+      "corrected_threshold": null,
+      "n_feasible_candidates": 0,
+      "five_rule_c_star": null,
+      "differs": false
+    }
+  ]
+}

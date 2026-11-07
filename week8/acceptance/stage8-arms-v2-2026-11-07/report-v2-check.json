@@ -1,0 +1,35 @@
+{
+  "status": "REPORT_V2_VERIFIED",
+  "candidate_bounds_rows_checked": 40000,
+  "frozen_registry_files_checked": 12,
+  "v2_registry_files_checked": 6,
+  "selftest": "13/13",
+  "files": {
+    "week8\\week8-report-grouped-split-v1.md": {
+      "bytes": 7809,
+      "sha256": "cd7b9e504baba6e08636dc4f0e70c4a3f824cbba5f7957262dc76ccde5838361"
+    },
+    "week8\\week8-report-grouped-split-v2.md": {
+      "bytes": 8490,
+      "sha256": "ae2bd46b9c75b63967ae3831d6c3e233d509f23238f5a804e33007d7fe96cdcd"
+    },
+    "week8\\arms_v2.py": {
+      "bytes": 31988,
+      "sha256": "bab2fbb244929a33244bf4115c95291fe5b723775c7756979730ba50d9703cbc"
+    },
+    "week8\\verify_arms_v2.py": {
+      "bytes": 13776,
+      "sha256": "12a21d517038f1adac2d36b417c1e275b7bcffdbd195082607fb5800b18b6a33"
+    }
+  },
+  "changes": [
+    "结果正文 v1",
+    "同一批分数上，四臂各 10000 次整数均匀抽样复现下表：除 I0 的 `mid_over`（见第 6 节）外，各臂各态与精确值相差均在 2σ 内。",
+    "| 1.18×10⁻⁷ | 20.7444% |",
+    "但两者评价池不同（75 对 93），差值同时含\"移走 18 张图\"与\"整组\"两个来源，不作单一机制解释。G0 与 G1 的差在 10⁻⁴pp 量级以下，与\"18 张组几乎不会落入评价侧\"的解析质量 `1.5027×10⁻⁵` 一致。",
+    "代价是中位多 1 个误报。",
+    "**（3）重划下预算几乎总被触及。**",
+    "G1 的 C\\* 中位仅 5，说明多数重划里\"预算内最优\"离五条规则的实际操作点仍差约 5–6 个缺陷。",
+    "四臂的 C\\* 与缺口差异小（11.82–15.41 与 5.97–6.52），即分组方式改变的主要是四态比例，不是\"规则离最优有多远\"这一距离本身。"
+  ]
+}

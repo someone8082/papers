@@ -1,0 +1,710 @@
+{
+ "kind": "stage8-sampler-fixture",
+ "case": 24,
+ "seed": 20261106,
+ "n_instances": 40,
+ "bounds": {
+  "max_groups": 12,
+  "group_size_min": 1,
+  "group_size_max": 6,
+  "max_excluded": 2
+ },
+ "generator": "sampler_tools/gen_sampler_fixtures.py",
+ "note": "inputs and external anchors only; counts and marginals are recomputed by verify_sampler.py",
+ "rank_order": "lexicographic on (b_0..b_{n-1}) with 0<1, b_0 most significant",
+ "instances": [
+  {
+   "index": 0,
+   "sizes": [
+    1,
+    1,
+    2,
+    2,
+    1,
+    5,
+    3,
+    4,
+    3,
+    6,
+    1
+   ],
+   "target": 20,
+   "excluded": []
+  },
+  {
+   "index": 1,
+   "sizes": [
+    2,
+    3
+   ],
+   "target": 1,
+   "excluded": []
+  },
+  {
+   "index": 2,
+   "sizes": [
+    5,
+    2,
+    3,
+    6,
+    1
+   ],
+   "target": 7,
+   "excluded": [
+    0,
+    4
+   ]
+  },
+  {
+   "index": 3,
+   "sizes": [
+    5,
+    5
+   ],
+   "target": 7,
+   "excluded": []
+  },
+  {
+   "index": 4,
+   "sizes": [
+    2,
+    1,
+    3,
+    6,
+    4,
+    5,
+    4,
+    6,
+    1,
+    2,
+    4,
+    1
+   ],
+   "target": 36,
+   "excluded": [
+    2
+   ]
+  },
+  {
+   "index": 5,
+   "sizes": [
+    4,
+    4,
+    2,
+    4,
+    2,
+    3,
+    1,
+    2,
+    1,
+    4,
+    6,
+    5
+   ],
+   "target": 3,
+   "excluded": [
+    2,
+    3
+   ]
+  },
+  {
+   "index": 6,
+   "sizes": [
+    6,
+    4,
+    1,
+    4,
+    3,
+    2
+   ],
+   "target": 17,
+   "excluded": []
+  },
+  {
+   "index": 7,
+   "sizes": [
+    1,
+    1,
+    3,
+    4,
+    5,
+    1,
+    2
+   ],
+   "target": 2,
+   "excluded": [
+    1,
+    3
+   ]
+  },
+  {
+   "index": 8,
+   "sizes": [
+    1,
+    4,
+    5,
+    3,
+    6
+   ],
+   "target": 11,
+   "excluded": [
+    2,
+    4
+   ]
+  },
+  {
+   "index": 9,
+   "sizes": [
+    5,
+    1,
+    4,
+    4,
+    2
+   ],
+   "target": 3,
+   "excluded": [
+    2,
+    4
+   ]
+  },
+  {
+   "index": 10,
+   "sizes": [
+    6,
+    4,
+    3,
+    6,
+    4
+   ],
+   "target": 11,
+   "excluded": []
+  },
+  {
+   "index": 11,
+   "sizes": [
+    4,
+    4,
+    5,
+    3,
+    1,
+    6,
+    6,
+    3,
+    2
+   ],
+   "target": 23,
+   "excluded": []
+  },
+  {
+   "index": 12,
+   "sizes": [
+    6
+   ],
+   "target": 2,
+   "excluded": []
+  },
+  {
+   "index": 13,
+   "sizes": [
+    4,
+    4,
+    4,
+    6,
+    5
+   ],
+   "target": 15,
+   "excluded": [
+    3,
+    4
+   ]
+  },
+  {
+   "index": 14,
+   "sizes": [
+    6,
+    2,
+    2,
+    5,
+    2,
+    5,
+    5
+   ],
+   "target": 13,
+   "excluded": [
+    2,
+    4
+   ]
+  },
+  {
+   "index": 15,
+   "sizes": [
+    2,
+    3,
+    5,
+    6,
+    6,
+    2,
+    3
+   ],
+   "target": 2,
+   "excluded": [
+    2,
+    6
+   ]
+  },
+  {
+   "index": 16,
+   "sizes": [
+    6,
+    2,
+    6,
+    6
+   ],
+   "target": 0,
+   "excluded": [
+    0,
+    2
+   ]
+  },
+  {
+   "index": 17,
+   "sizes": [
+    1,
+    6
+   ],
+   "target": 0,
+   "excluded": []
+  },
+  {
+   "index": 18,
+   "sizes": [
+    6,
+    3,
+    4,
+    6,
+    3,
+    3
+   ],
+   "target": 4,
+   "excluded": [
+    2,
+    3
+   ]
+  },
+  {
+   "index": 19,
+   "sizes": [
+    5,
+    4,
+    3,
+    1,
+    4,
+    4,
+    5,
+    2
+   ],
+   "target": 15,
+   "excluded": [
+    6
+   ]
+  },
+  {
+   "index": 20,
+   "sizes": [
+    4,
+    2,
+    2,
+    4,
+    4,
+    2
+   ],
+   "target": 17,
+   "excluded": [
+    4
+   ]
+  },
+  {
+   "index": 21,
+   "sizes": [
+    3,
+    3,
+    4,
+    1,
+    3,
+    2,
+    3,
+    1,
+    6,
+    6,
+    3,
+    3
+   ],
+   "target": 23,
+   "excluded": [
+    4
+   ]
+  },
+  {
+   "index": 22,
+   "sizes": [
+    1,
+    5,
+    3,
+    5,
+    2,
+    2,
+    2,
+    1,
+    4,
+    3,
+    6,
+    6
+   ],
+   "target": 19,
+   "excluded": []
+  },
+  {
+   "index": 23,
+   "sizes": [
+    6,
+    6,
+    1
+   ],
+   "target": 10,
+   "excluded": [
+    0
+   ]
+  },
+  {
+   "index": 24,
+   "sizes": [
+    3
+   ],
+   "target": 1,
+   "excluded": []
+  },
+  {
+   "index": 25,
+   "sizes": [
+    1,
+    3,
+    4,
+    3,
+    2,
+    5,
+    2,
+    1
+   ],
+   "target": 19,
+   "excluded": [
+    7
+   ]
+  },
+  {
+   "index": 26,
+   "sizes": [
+    1,
+    2
+   ],
+   "target": 3,
+   "excluded": []
+  },
+  {
+   "index": 27,
+   "sizes": [
+    6,
+    5,
+    2,
+    2,
+    2,
+    5,
+    6,
+    3,
+    6,
+    4,
+    3,
+    4
+   ],
+   "target": 27,
+   "excluded": [
+    3,
+    11
+   ]
+  },
+  {
+   "index": 28,
+   "sizes": [
+    3,
+    6,
+    4,
+    2,
+    4,
+    5,
+    2,
+    4
+   ],
+   "target": 12,
+   "excluded": [
+    2
+   ]
+  },
+  {
+   "index": 29,
+   "sizes": [
+    2,
+    4,
+    3,
+    5,
+    6,
+    5,
+    3,
+    4,
+    6,
+    5,
+    5
+   ],
+   "target": 17,
+   "excluded": [
+    7
+   ]
+  },
+  {
+   "index": 30,
+   "sizes": [
+    6,
+    3
+   ],
+   "target": 8,
+   "excluded": [
+    0
+   ]
+  },
+  {
+   "index": 31,
+   "sizes": [
+    4,
+    6,
+    1
+   ],
+   "target": 6,
+   "excluded": [
+    2
+   ]
+  },
+  {
+   "index": 32,
+   "sizes": [
+    1,
+    6,
+    5,
+    2,
+    4,
+    6,
+    5,
+    4,
+    1,
+    3
+   ],
+   "target": 17,
+   "excluded": []
+  },
+  {
+   "index": 33,
+   "sizes": [
+    5
+   ],
+   "target": 5,
+   "excluded": []
+  },
+  {
+   "index": 34,
+   "sizes": [
+    3,
+    2,
+    5,
+    1,
+    3,
+    5,
+    5,
+    3,
+    2,
+    4,
+    2,
+    6
+   ],
+   "target": 23,
+   "excluded": [
+    3,
+    5
+   ]
+  },
+  {
+   "index": 35,
+   "sizes": [
+    4,
+    1,
+    2,
+    4,
+    5,
+    1,
+    4,
+    6,
+    3
+   ],
+   "target": 3,
+   "excluded": [
+    3
+   ]
+  },
+  {
+   "index": 36,
+   "sizes": [
+    3,
+    5,
+    3,
+    4,
+    2,
+    4,
+    1,
+    2,
+    2,
+    1
+   ],
+   "target": 15,
+   "excluded": []
+  },
+  {
+   "index": 37,
+   "sizes": [
+    6,
+    3
+   ],
+   "target": 9,
+   "excluded": [
+    1
+   ]
+  },
+  {
+   "index": 38,
+   "sizes": [
+    3,
+    4,
+    4,
+    5,
+    1
+   ],
+   "target": 15,
+   "excluded": [
+    0
+   ]
+  },
+  {
+   "index": 39,
+   "sizes": [
+    4,
+    6,
+    1,
+    4,
+    4,
+    2,
+    1,
+    3,
+    5,
+    6,
+    6,
+    3
+   ],
+   "target": 15,
+   "excluded": []
+  }
+ ],
+ "real": {
+  "group_sizes": [
+   1,
+   1,
+   6,
+   18,
+   1,
+   2,
+   3,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   3,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "excluded": [
+   3
+  ],
+  "target": 32,
+  "total_images": 93,
+  "eligible_images": 75,
+  "anchors": {
+   "grouped_count": 1672489259948266974,
+   "anchored_count": 1672464128242708178,
+   "per_image_count": 8661069563374624785150762,
+   "source": "week8/acceptance/stage8-grouping-2026-11-06/decision-check.json"
+  }
+ },
+ "arm_seeds": {
+  "I0": "61937105059941883325076333843977634653393982328370545507596944003791737639513",
+  "I1": "33703650452731607911305711290387131258894464442263641448953075776406923732708",
+  "G0": "107693782000391971249738558925557697982381009792040192133629104653976747538956",
+  "G1": "99681340749277304668693672370682719431996711384292590445742509059668051408245"
+ },
+ "arm_seed_rule": "int.from_bytes(SHA256(UTF8('stage8-grouped-v1|20261106|' + arm)), 'big')"
+}

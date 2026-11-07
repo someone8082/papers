@@ -1,0 +1,23 @@
+{
+  "background": null,
+  "branch": "main",
+  "created_at": "2026-11-06T12:49:58Z",
+  "goal": "\u5b9e\u73b0\u53ef\u590d\u6838\u7684\u56fe\u50cf\u5206\u7ec4\u4e0e\u6574\u7ec4\u4e92\u8865\u5212\u5206\u53ef\u884c\u6027\u68c0\u67e5\u5668\uff1a\u7ed9\u5b9a\u4e92\u5f02\u56fe\u50cf\u952e\u4e0e\u65e0\u5411\u8fb9\u8f93\u51fa\u7a33\u5b9a\u8fde\u901a\u5206\u91cf\uff0c\u7ed9\u5b9a\u7ec4\u5927\u5c0f\u7cbe\u786e\u8ba1\u7b97\u8bc4\u4ef7\u56fe\u50cf\u6570\u4e3a\u6307\u5b9a\u503c\u7684\u6574\u7ec4\u5206\u914d\u6570\uff1b\u56fa\u5b9a 24 \u4f8b\u9a8c\u6536\u7684 failed_cases \u964d\u81f3 0\uff0c\u4e0d\u6539\u53d8\u9a8c\u6536\u5668\u3001\u5939\u5177\u3001\u5b88\u536b\u4e0e\u9636\u6bb5 5-7 \u5f52\u6863",
+  "guard": "E:/yingyong/an/envs/iad-week1/python.exe -B guard.py",
+  "max_iterations": null,
+  "metric": {
+    "command": "E:/yingyong/an/envs/iad-week1/python.exe -B verify_metric.py",
+    "direction": "lower",
+    "json_key": "failed_cases",
+    "name": "failed_cases"
+  },
+  "mode": "foreground",
+  "repo": "E:\\ABB_Spray_Project\\ideas\\papers\\week8\\grouped-split-lab",
+  "run_id": "f29dca4878b14a7082089737bbd9b82c",
+  "schema_version": 1,
+  "scope": [
+    "src"
+  ],
+  "target": 0,
+  "timeout_seconds": 1800
+}

@@ -1,0 +1,3869 @@
+{
+  "status": "STAGE8_ARMS_PLAN",
+  "protocol": {
+    "path": "week8/stage8-arms-protocol-v2-2026-11-06.md",
+    "sha256": "bcce7b001bed93678380cabd325fde8961e16cb079236c036207db50b4d1d8ab",
+    "version": 2,
+    "supersedes": {
+      "path": "week8/stage8-arms-protocol-2026-11-06.md",
+      "sha256": "78af53dd69b5603beff2337a0a0c7c97216cea02ee71b688ebdcfcad7eff690e"
+    }
+  },
+  "inputs": {
+    "roles": {
+      "path": "week7/acceptance/stage7-background-2026-11-05/roles-background-v1.json",
+      "sha256": "3f25250965a078865181adc8ee7c2ac7d28eef4c5c933b89f610e432ec3010a1",
+      "bytes": 27316
+    },
+    "groups": {
+      "path": "week8/acceptance/stage8-grouping-2026-11-06/groups-dh4.csv",
+      "sha256": "4fb5780bd9e89b88eba360d6d9912ee00cf59826900607e13d8b9577c44b9319",
+      "bytes": 3784
+    },
+    "decision": {
+      "path": "week8/acceptance/stage8-grouping-2026-11-06/decision-check.json",
+      "sha256": "2ed91b5c6bba613099d3ef3c0c387ea5681533ba5b2f87b565d4559215040a40",
+      "bytes": 1497
+    }
+  },
+  "code": {
+    "arms": {
+      "path": "week8/arms.py",
+      "sha256": "cc33ceeaa167b05d5069534f3f1468095bc0792f1d6864e9201054add9a118a4"
+    },
+    "sampler": {
+      "path": "week8/grouped-split-lab/src/sampler.py",
+      "sha256": "87488912f00842573ded54209b76ae343cfc307cc887b548dc68a4dd771ac2c0"
+    }
+  },
+  "design": {
+    "target": 32,
+    "draws": 10000,
+    "budget": 1,
+    "seed_template": "stage8-grouped-v1|20261106|",
+    "main_arm": "G1",
+    "arm_unit_counts": {
+      "I0": 93,
+      "G0": 66,
+      "I1": 75,
+      "G1": 65
+    },
+    "anchor_group_id": 4,
+    "anchor_size": 18,
+    "universe_size": 93,
+    "eligible_size": 75
+  },
+  "anchors": {
+    "counts_match": true,
+    "g1_equals_g0_minus_anchor": "1672464128242708178",
+    "anchor_selected_allocations": "25131705558796"
+  },
+  "inclusion_notes": {
+    "G0_anchor_group": {
+      "value": "1.502652732106236e-05",
+      "numerator": "12565852779398",
+      "denominator": "836244629974133487",
+      "expected_eval_rows_in_10000": "0.1502652732106236"
+    }
+  },
+  "arms": {
+    "I0": {
+      "kind": "image",
+      "units": [
+        [
+          "test/good/background/IMG_7728.png"
+        ],
+        [
+          "test/good/background/IMG_7729.png"
+        ],
+        [
+          "test/good/background/IMG_7730.png"
+        ],
+        [
+          "test/good/background/IMG_7731.png"
+        ],
+        [
+          "test/good/background/IMG_7732.png"
+        ],
+        [
+          "test/good/background/IMG_7733.png"
+        ],
+        [
+          "test/good/background/IMG_7734.png"
+        ],
+        [
+          "test/good/background/IMG_7735.png"
+        ],
+        [
+          "test/good/background/IMG_7736.png"
+        ],
+        [
+          "test/good/background/IMG_7737.png"
+        ],
+        [
+          "test/good/background/IMG_7738.png"
+        ],
+        [
+          "test/good/background/IMG_7739.png"
+        ],
+        [
+          "test/good/background/IMG_7740.png"
+        ],
+        [
+          "test/good/background/IMG_7741.png"
+        ],
+        [
+          "test/good/background/IMG_7742.png"
+        ],
+        [
+          "test/good/background/IMG_7743.png"
+        ],
+        [
+          "test/good/background/IMG_7744.png"
+        ],
+        [
+          "test/good/background/IMG_7745.png"
+        ],
+        [
+          "test/good/background/IMG_7747.png"
+        ],
+        [
+          "test/good/background/IMG_7748.png"
+        ],
+        [
+          "test/good/background/IMG_7749.png"
+        ],
+        [
+          "test/good/background/IMG_7751.png"
+        ],
+        [
+          "test/good/background/IMG_7752.png"
+        ],
+        [
+          "test/good/background/IMG_7753.png"
+        ],
+        [
+          "test/good/background/IMG_7754.png"
+        ],
+        [
+          "test/good/background/IMG_7755.png"
+        ],
+        [
+          "test/good/background/IMG_7756.png"
+        ],
+        [
+          "test/good/background/IMG_7757.png"
+        ],
+        [
+          "test/good/background/IMG_7758.png"
+        ],
+        [
+          "test/good/background/IMG_7759.png"
+        ],
+        [
+          "test/good/background/IMG_7760.png"
+        ],
+        [
+          "test/good/background/IMG_7762.png"
+        ],
+        [
+          "test/good/background/IMG_7763.png"
+        ],
+        [
+          "test/good/background/IMG_7764.png"
+        ],
+        [
+          "test/good/background/IMG_7765.png"
+        ],
+        [
+          "test/good/background/IMG_7766.png"
+        ],
+        [
+          "test/good/background/IMG_7767.png"
+        ],
+        [
+          "test/good/background/IMG_7768.png"
+        ],
+        [
+          "test/good/background/IMG_7769.png"
+        ],
+        [
+          "test/good/background/IMG_7770.png"
+        ],
+        [
+          "test/good/background/IMG_7771.png"
+        ],
+        [
+          "test/good/background/IMG_7773.png"
+        ],
+        [
+          "test/good/background/IMG_7774.png"
+        ],
+        [
+          "test/good/background/IMG_7775.png"
+        ],
+        [
+          "test/good/background/IMG_7776.png"
+        ],
+        [
+          "test/good/background/IMG_7778.png"
+        ],
+        [
+          "test/good/background/IMG_7779.png"
+        ],
+        [
+          "test/good/background/IMG_7780.png"
+        ],
+        [
+          "test/good/background/IMG_7781.png"
+        ],
+        [
+          "test/good/background/IMG_7782.png"
+        ],
+        [
+          "test/good/background/IMG_7783.png"
+        ],
+        [
+          "test/good/background/IMG_7784.png"
+        ],
+        [
+          "test/good/background/IMG_7785.png"
+        ],
+        [
+          "test/good/background/IMG_7786.png"
+        ],
+        [
+          "test/good/background/IMG_7787.png"
+        ],
+        [
+          "test/good/background/IMG_7788.png"
+        ],
+        [
+          "test/good/background/IMG_7789.png"
+        ],
+        [
+          "test/good/background/IMG_7791.png"
+        ],
+        [
+          "test/good/background/IMG_7793.png"
+        ],
+        [
+          "test/good/background/IMG_7794.png"
+        ],
+        [
+          "test/good/background/IMG_7795.png"
+        ],
+        [
+          "test/good/background/IMG_7796.png"
+        ],
+        [
+          "test/good/background/IMG_7797.png"
+        ],
+        [
+          "test/good/background/IMG_7798.png"
+        ],
+        [
+          "test/good/background/IMG_7799.png"
+        ],
+        [
+          "test/good/background/IMG_7800.png"
+        ],
+        [
+          "test/good/background/IMG_8116.png"
+        ],
+        [
+          "test/good/background/IMG_8117.png"
+        ],
+        [
+          "test/good/background/IMG_8118.png"
+        ],
+        [
+          "test/good/background/IMG_8119.png"
+        ],
+        [
+          "test/good/background/IMG_8120.png"
+        ],
+        [
+          "test/good/background/IMG_8121.png"
+        ],
+        [
+          "test/good/background/IMG_8122.png"
+        ],
+        [
+          "test/good/background/IMG_8123.png"
+        ],
+        [
+          "test/good/background/IMG_8124.png"
+        ],
+        [
+          "test/good/background/IMG_8126.png"
+        ],
+        [
+          "test/good/background/IMG_8127.png"
+        ],
+        [
+          "test/good/background/IMG_8128.png"
+        ],
+        [
+          "test/good/background/IMG_8129.png"
+        ],
+        [
+          "test/good/background/IMG_8132.png"
+        ],
+        [
+          "test/good/background/IMG_8134.png"
+        ],
+        [
+          "test/good/background/IMG_8136.png"
+        ],
+        [
+          "test/good/background/IMG_8137.png"
+        ],
+        [
+          "test/good/background/IMG_8138.png"
+        ],
+        [
+          "test/good/background/IMG_8139.png"
+        ],
+        [
+          "test/good/background/IMG_8142.png"
+        ],
+        [
+          "test/good/background/IMG_8143.png"
+        ],
+        [
+          "test/good/background/IMG_8144.png"
+        ],
+        [
+          "test/good/background/IMG_8145.png"
+        ],
+        [
+          "test/good/background/IMG_8146.png"
+        ],
+        [
+          "test/good/background/IMG_8147.png"
+        ],
+        [
+          "test/good/background/IMG_8148.png"
+        ],
+        [
+          "test/good/background/IMG_8149.png"
+        ]
+      ],
+      "unit_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "image_keys": [
+        "test/good/background/IMG_7728.png",
+        "test/good/background/IMG_7729.png",
+        "test/good/background/IMG_7730.png",
+        "test/good/background/IMG_7731.png",
+        "test/good/background/IMG_7732.png",
+        "test/good/background/IMG_7733.png",
+        "test/good/background/IMG_7734.png",
+        "test/good/background/IMG_7735.png",
+        "test/good/background/IMG_7736.png",
+        "test/good/background/IMG_7737.png",
+        "test/good/background/IMG_7738.png",
+        "test/good/background/IMG_7739.png",
+        "test/good/background/IMG_7740.png",
+        "test/good/background/IMG_7741.png",
+        "test/good/background/IMG_7742.png",
+        "test/good/background/IMG_7743.png",
+        "test/good/background/IMG_7744.png",
+        "test/good/background/IMG_7745.png",
+        "test/good/background/IMG_7747.png",
+        "test/good/background/IMG_7748.png",
+        "test/good/background/IMG_7749.png",
+        "test/good/background/IMG_7751.png",
+        "test/good/background/IMG_7752.png",
+        "test/good/background/IMG_7753.png",
+        "test/good/background/IMG_7754.png",
+        "test/good/background/IMG_7755.png",
+        "test/good/background/IMG_7756.png",
+        "test/good/background/IMG_7757.png",
+        "test/good/background/IMG_7758.png",
+        "test/good/background/IMG_7759.png",
+        "test/good/background/IMG_7760.png",
+        "test/good/background/IMG_7762.png",
+        "test/good/background/IMG_7763.png",
+        "test/good/background/IMG_7764.png",
+        "test/good/background/IMG_7765.png",
+        "test/good/background/IMG_7766.png",
+        "test/good/background/IMG_7767.png",
+        "test/good/background/IMG_7768.png",
+        "test/good/background/IMG_7769.png",
+        "test/good/background/IMG_7770.png",
+        "test/good/background/IMG_7771.png",
+        "test/good/background/IMG_7773.png",
+        "test/good/background/IMG_7774.png",
+        "test/good/background/IMG_7775.png",
+        "test/good/background/IMG_7776.png",
+        "test/good/background/IMG_7778.png",
+        "test/good/background/IMG_7779.png",
+        "test/good/background/IMG_7780.png",
+        "test/good/background/IMG_7781.png",
+        "test/good/background/IMG_7782.png",
+        "test/good/background/IMG_7783.png",
+        "test/good/background/IMG_7784.png",
+        "test/good/background/IMG_7785.png",
+        "test/good/background/IMG_7786.png",
+        "test/good/background/IMG_7787.png",
+        "test/good/background/IMG_7788.png",
+        "test/good/background/IMG_7789.png",
+        "test/good/background/IMG_7791.png",
+        "test/good/background/IMG_7793.png",
+        "test/good/background/IMG_7794.png",
+        "test/good/background/IMG_7795.png",
+        "test/good/background/IMG_7796.png",
+        "test/good/background/IMG_7797.png",
+        "test/good/background/IMG_7798.png",
+        "test/good/background/IMG_7799.png",
+        "test/good/background/IMG_7800.png",
+        "test/good/background/IMG_8116.png",
+        "test/good/background/IMG_8117.png",
+        "test/good/background/IMG_8118.png",
+        "test/good/background/IMG_8119.png",
+        "test/good/background/IMG_8120.png",
+        "test/good/background/IMG_8121.png",
+        "test/good/background/IMG_8122.png",
+        "test/good/background/IMG_8123.png",
+        "test/good/background/IMG_8124.png",
+        "test/good/background/IMG_8126.png",
+        "test/good/background/IMG_8127.png",
+        "test/good/background/IMG_8128.png",
+        "test/good/background/IMG_8129.png",
+        "test/good/background/IMG_8132.png",
+        "test/good/background/IMG_8134.png",
+        "test/good/background/IMG_8136.png",
+        "test/good/background/IMG_8137.png",
+        "test/good/background/IMG_8138.png",
+        "test/good/background/IMG_8139.png",
+        "test/good/background/IMG_8142.png",
+        "test/good/background/IMG_8143.png",
+        "test/good/background/IMG_8144.png",
+        "test/good/background/IMG_8145.png",
+        "test/good/background/IMG_8146.png",
+        "test/good/background/IMG_8147.png",
+        "test/good/background/IMG_8148.png",
+        "test/good/background/IMG_8149.png"
+      ],
+      "target": 32,
+      "count": "8661069563374624785150762",
+      "count_anchor": "8661069563374624785150762",
+      "count_matches_anchor": true,
+      "draws": 10000,
+      "seed": "61937105059941883325076333843977634653393982328370545507596944003791737639513",
+      "seed_hex": "88ef28be70eb90814e1c3bbd9dc32c3325305bf90709711380f90e0d1dd4d259",
+      "inclusion": [
+        {
+          "unit": 0,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 1,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 2,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 3,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 4,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 5,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 6,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 7,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 8,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 9,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 10,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 11,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 12,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 13,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 14,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 15,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 16,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 17,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 18,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 19,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 20,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 21,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 22,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 23,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 24,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 25,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 26,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 27,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 28,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 29,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 30,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 31,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 32,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 33,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 34,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 35,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 36,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 37,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 38,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 39,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 40,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 41,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 42,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 43,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 44,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 45,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 46,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 47,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 48,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 49,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 50,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 51,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 52,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 53,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 54,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 55,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 56,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 57,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 58,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 59,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 60,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 61,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 62,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 63,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 64,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 65,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 66,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 67,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 68,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 69,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 70,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 71,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 72,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 73,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 74,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 75,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 76,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 77,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 78,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 79,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 80,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 81,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 82,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 83,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 84,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 85,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 86,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 87,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 88,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 89,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 90,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 91,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        },
+        {
+          "unit": 92,
+          "size": 1,
+          "value": "0.34408602150537637",
+          "numerator": "32",
+          "denominator": "93"
+        }
+      ],
+      "inclusion_weighted_sum": "32",
+      "inclusion_sum": {
+        "value": "32.0",
+        "numerator": "32",
+        "denominator": "1"
+      },
+      "duplicate_splits": 0,
+      "manifest": {
+        "path": "week8/outputs/arms-v1/manifest-I0.csv",
+        "rows": 10000,
+        "bytes": 1973305,
+        "sha256": "5842e1e914f60c57bff227387303f53af853ab9ae58a569a5a4911c364891bd9"
+      }
+    },
+    "G0": {
+      "kind": "group",
+      "units": [
+        [
+          "test/good/background/IMG_7728.png"
+        ],
+        [
+          "test/good/background/IMG_7729.png"
+        ],
+        [
+          "test/good/background/IMG_7730.png",
+          "test/good/background/IMG_7739.png",
+          "test/good/background/IMG_7742.png",
+          "test/good/background/IMG_7756.png",
+          "test/good/background/IMG_7759.png",
+          "test/good/background/IMG_7764.png"
+        ],
+        [
+          "test/good/background/IMG_7731.png",
+          "test/good/background/IMG_7732.png",
+          "test/good/background/IMG_7733.png",
+          "test/good/background/IMG_7734.png",
+          "test/good/background/IMG_7735.png",
+          "test/good/background/IMG_7737.png",
+          "test/good/background/IMG_7738.png",
+          "test/good/background/IMG_7751.png",
+          "test/good/background/IMG_7752.png",
+          "test/good/background/IMG_7754.png",
+          "test/good/background/IMG_7758.png",
+          "test/good/background/IMG_7765.png",
+          "test/good/background/IMG_7776.png",
+          "test/good/background/IMG_7796.png",
+          "test/good/background/IMG_7798.png",
+          "test/good/background/IMG_7799.png",
+          "test/good/background/IMG_8123.png",
+          "test/good/background/IMG_8142.png"
+        ],
+        [
+          "test/good/background/IMG_7736.png"
+        ],
+        [
+          "test/good/background/IMG_7740.png",
+          "test/good/background/IMG_7763.png"
+        ],
+        [
+          "test/good/background/IMG_7741.png",
+          "test/good/background/IMG_7767.png",
+          "test/good/background/IMG_7794.png"
+        ],
+        [
+          "test/good/background/IMG_7743.png"
+        ],
+        [
+          "test/good/background/IMG_7744.png"
+        ],
+        [
+          "test/good/background/IMG_7745.png"
+        ],
+        [
+          "test/good/background/IMG_7747.png"
+        ],
+        [
+          "test/good/background/IMG_7748.png"
+        ],
+        [
+          "test/good/background/IMG_7749.png"
+        ],
+        [
+          "test/good/background/IMG_7753.png"
+        ],
+        [
+          "test/good/background/IMG_7755.png"
+        ],
+        [
+          "test/good/background/IMG_7757.png"
+        ],
+        [
+          "test/good/background/IMG_7760.png"
+        ],
+        [
+          "test/good/background/IMG_7762.png"
+        ],
+        [
+          "test/good/background/IMG_7766.png"
+        ],
+        [
+          "test/good/background/IMG_7768.png"
+        ],
+        [
+          "test/good/background/IMG_7769.png"
+        ],
+        [
+          "test/good/background/IMG_7770.png"
+        ],
+        [
+          "test/good/background/IMG_7771.png"
+        ],
+        [
+          "test/good/background/IMG_7773.png"
+        ],
+        [
+          "test/good/background/IMG_7774.png"
+        ],
+        [
+          "test/good/background/IMG_7775.png"
+        ],
+        [
+          "test/good/background/IMG_7778.png"
+        ],
+        [
+          "test/good/background/IMG_7779.png"
+        ],
+        [
+          "test/good/background/IMG_7780.png"
+        ],
+        [
+          "test/good/background/IMG_7781.png"
+        ],
+        [
+          "test/good/background/IMG_7782.png",
+          "test/good/background/IMG_7783.png",
+          "test/good/background/IMG_7784.png"
+        ],
+        [
+          "test/good/background/IMG_7785.png"
+        ],
+        [
+          "test/good/background/IMG_7786.png"
+        ],
+        [
+          "test/good/background/IMG_7787.png"
+        ],
+        [
+          "test/good/background/IMG_7788.png"
+        ],
+        [
+          "test/good/background/IMG_7789.png"
+        ],
+        [
+          "test/good/background/IMG_7791.png"
+        ],
+        [
+          "test/good/background/IMG_7793.png"
+        ],
+        [
+          "test/good/background/IMG_7795.png"
+        ],
+        [
+          "test/good/background/IMG_7797.png"
+        ],
+        [
+          "test/good/background/IMG_7800.png"
+        ],
+        [
+          "test/good/background/IMG_8116.png"
+        ],
+        [
+          "test/good/background/IMG_8117.png"
+        ],
+        [
+          "test/good/background/IMG_8118.png"
+        ],
+        [
+          "test/good/background/IMG_8119.png"
+        ],
+        [
+          "test/good/background/IMG_8120.png"
+        ],
+        [
+          "test/good/background/IMG_8121.png"
+        ],
+        [
+          "test/good/background/IMG_8122.png"
+        ],
+        [
+          "test/good/background/IMG_8124.png"
+        ],
+        [
+          "test/good/background/IMG_8126.png"
+        ],
+        [
+          "test/good/background/IMG_8127.png"
+        ],
+        [
+          "test/good/background/IMG_8128.png"
+        ],
+        [
+          "test/good/background/IMG_8129.png"
+        ],
+        [
+          "test/good/background/IMG_8132.png"
+        ],
+        [
+          "test/good/background/IMG_8134.png"
+        ],
+        [
+          "test/good/background/IMG_8136.png"
+        ],
+        [
+          "test/good/background/IMG_8137.png"
+        ],
+        [
+          "test/good/background/IMG_8138.png"
+        ],
+        [
+          "test/good/background/IMG_8139.png"
+        ],
+        [
+          "test/good/background/IMG_8143.png"
+        ],
+        [
+          "test/good/background/IMG_8144.png"
+        ],
+        [
+          "test/good/background/IMG_8145.png"
+        ],
+        [
+          "test/good/background/IMG_8146.png"
+        ],
+        [
+          "test/good/background/IMG_8147.png"
+        ],
+        [
+          "test/good/background/IMG_8148.png"
+        ],
+        [
+          "test/good/background/IMG_8149.png"
+        ]
+      ],
+      "unit_sizes": [
+        1,
+        1,
+        6,
+        18,
+        1,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "image_keys": [
+        "test/good/background/IMG_7728.png",
+        "test/good/background/IMG_7729.png",
+        "test/good/background/IMG_7730.png",
+        "test/good/background/IMG_7731.png",
+        "test/good/background/IMG_7732.png",
+        "test/good/background/IMG_7733.png",
+        "test/good/background/IMG_7734.png",
+        "test/good/background/IMG_7735.png",
+        "test/good/background/IMG_7736.png",
+        "test/good/background/IMG_7737.png",
+        "test/good/background/IMG_7738.png",
+        "test/good/background/IMG_7739.png",
+        "test/good/background/IMG_7740.png",
+        "test/good/background/IMG_7741.png",
+        "test/good/background/IMG_7742.png",
+        "test/good/background/IMG_7743.png",
+        "test/good/background/IMG_7744.png",
+        "test/good/background/IMG_7745.png",
+        "test/good/background/IMG_7747.png",
+        "test/good/background/IMG_7748.png",
+        "test/good/background/IMG_7749.png",
+        "test/good/background/IMG_7751.png",
+        "test/good/background/IMG_7752.png",
+        "test/good/background/IMG_7753.png",
+        "test/good/background/IMG_7754.png",
+        "test/good/background/IMG_7755.png",
+        "test/good/background/IMG_7756.png",
+        "test/good/background/IMG_7757.png",
+        "test/good/background/IMG_7758.png",
+        "test/good/background/IMG_7759.png",
+        "test/good/background/IMG_7760.png",
+        "test/good/background/IMG_7762.png",
+        "test/good/background/IMG_7763.png",
+        "test/good/background/IMG_7764.png",
+        "test/good/background/IMG_7765.png",
+        "test/good/background/IMG_7766.png",
+        "test/good/background/IMG_7767.png",
+        "test/good/background/IMG_7768.png",
+        "test/good/background/IMG_7769.png",
+        "test/good/background/IMG_7770.png",
+        "test/good/background/IMG_7771.png",
+        "test/good/background/IMG_7773.png",
+        "test/good/background/IMG_7774.png",
+        "test/good/background/IMG_7775.png",
+        "test/good/background/IMG_7776.png",
+        "test/good/background/IMG_7778.png",
+        "test/good/background/IMG_7779.png",
+        "test/good/background/IMG_7780.png",
+        "test/good/background/IMG_7781.png",
+        "test/good/background/IMG_7782.png",
+        "test/good/background/IMG_7783.png",
+        "test/good/background/IMG_7784.png",
+        "test/good/background/IMG_7785.png",
+        "test/good/background/IMG_7786.png",
+        "test/good/background/IMG_7787.png",
+        "test/good/background/IMG_7788.png",
+        "test/good/background/IMG_7789.png",
+        "test/good/background/IMG_7791.png",
+        "test/good/background/IMG_7793.png",
+        "test/good/background/IMG_7794.png",
+        "test/good/background/IMG_7795.png",
+        "test/good/background/IMG_7796.png",
+        "test/good/background/IMG_7797.png",
+        "test/good/background/IMG_7798.png",
+        "test/good/background/IMG_7799.png",
+        "test/good/background/IMG_7800.png",
+        "test/good/background/IMG_8116.png",
+        "test/good/background/IMG_8117.png",
+        "test/good/background/IMG_8118.png",
+        "test/good/background/IMG_8119.png",
+        "test/good/background/IMG_8120.png",
+        "test/good/background/IMG_8121.png",
+        "test/good/background/IMG_8122.png",
+        "test/good/background/IMG_8123.png",
+        "test/good/background/IMG_8124.png",
+        "test/good/background/IMG_8126.png",
+        "test/good/background/IMG_8127.png",
+        "test/good/background/IMG_8128.png",
+        "test/good/background/IMG_8129.png",
+        "test/good/background/IMG_8132.png",
+        "test/good/background/IMG_8134.png",
+        "test/good/background/IMG_8136.png",
+        "test/good/background/IMG_8137.png",
+        "test/good/background/IMG_8138.png",
+        "test/good/background/IMG_8139.png",
+        "test/good/background/IMG_8142.png",
+        "test/good/background/IMG_8143.png",
+        "test/good/background/IMG_8144.png",
+        "test/good/background/IMG_8145.png",
+        "test/good/background/IMG_8146.png",
+        "test/good/background/IMG_8147.png",
+        "test/good/background/IMG_8148.png",
+        "test/good/background/IMG_8149.png"
+      ],
+      "target": 32,
+      "count": "1672489259948266974",
+      "count_anchor": "1672489259948266974",
+      "count_matches_anchor": true,
+      "draws": 10000,
+      "seed": "107693782000391971249738558925557697982381009792040192133629104653976747538956",
+      "seed_hex": "ee188541ddcf266f82bc1eb8b9de94206e8b78929dc45be5497c6710b6327a0c",
+      "inclusion": [
+        {
+          "unit": 0,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 1,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 2,
+          "size": 6,
+          "value": "0.17232999807345722",
+          "numerator": "48036678490793794",
+          "denominator": "278748209991377829"
+        },
+        {
+          "unit": 3,
+          "size": 18,
+          "value": "1.502652732106236e-05",
+          "numerator": "12565852779398",
+          "denominator": "836244629974133487"
+        },
+        {
+          "unit": 4,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 5,
+          "size": 2,
+          "value": "0.4143752782912626",
+          "numerator": "38502122362789498",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 6,
+          "size": 3,
+          "value": "0.3674553299963758",
+          "numerator": "102427515488280808",
+          "denominator": "278748209991377829"
+        },
+        {
+          "unit": 7,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 8,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 9,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 10,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 11,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 12,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 13,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 14,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 15,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 16,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 17,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 18,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 19,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 20,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 21,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 22,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 23,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 24,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 25,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 26,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 27,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 28,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 29,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 30,
+          "size": 3,
+          "value": "0.3674553299963758",
+          "numerator": "102427515488280808",
+          "denominator": "278748209991377829"
+        },
+        {
+          "unit": 31,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 32,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 33,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 34,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 35,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 36,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 37,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 38,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 39,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 40,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 41,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 42,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 43,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 44,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 45,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 46,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 47,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 48,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 49,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 50,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 51,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 52,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 53,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 54,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 55,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 56,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 57,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 58,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 59,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 60,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 61,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 62,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 63,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 64,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        },
+        {
+          "unit": 65,
+          "size": 1,
+          "value": "0.45790601635256883",
+          "numerator": "42546827467520380",
+          "denominator": "92916069997125943"
+        }
+      ],
+      "inclusion_weighted_sum": "32",
+      "inclusion_sum": {
+        "value": "29.25389796039149",
+        "numerator": "24463415075188639730",
+        "denominator": "836244629974133487"
+      },
+      "duplicate_splits": 0,
+      "manifest": {
+        "path": "week8/outputs/arms-v1/manifest-G0.csv",
+        "rows": 10000,
+        "bytes": 1926797,
+        "sha256": "c0fd8035aec2ce014c5a93d49256f861cf7a9ed64f624c34862b4c585074b127"
+      }
+    },
+    "I1": {
+      "kind": "image",
+      "units": [
+        [
+          "test/good/background/IMG_7728.png"
+        ],
+        [
+          "test/good/background/IMG_7729.png"
+        ],
+        [
+          "test/good/background/IMG_7730.png"
+        ],
+        [
+          "test/good/background/IMG_7736.png"
+        ],
+        [
+          "test/good/background/IMG_7739.png"
+        ],
+        [
+          "test/good/background/IMG_7740.png"
+        ],
+        [
+          "test/good/background/IMG_7741.png"
+        ],
+        [
+          "test/good/background/IMG_7742.png"
+        ],
+        [
+          "test/good/background/IMG_7743.png"
+        ],
+        [
+          "test/good/background/IMG_7744.png"
+        ],
+        [
+          "test/good/background/IMG_7745.png"
+        ],
+        [
+          "test/good/background/IMG_7747.png"
+        ],
+        [
+          "test/good/background/IMG_7748.png"
+        ],
+        [
+          "test/good/background/IMG_7749.png"
+        ],
+        [
+          "test/good/background/IMG_7753.png"
+        ],
+        [
+          "test/good/background/IMG_7755.png"
+        ],
+        [
+          "test/good/background/IMG_7756.png"
+        ],
+        [
+          "test/good/background/IMG_7757.png"
+        ],
+        [
+          "test/good/background/IMG_7759.png"
+        ],
+        [
+          "test/good/background/IMG_7760.png"
+        ],
+        [
+          "test/good/background/IMG_7762.png"
+        ],
+        [
+          "test/good/background/IMG_7763.png"
+        ],
+        [
+          "test/good/background/IMG_7764.png"
+        ],
+        [
+          "test/good/background/IMG_7766.png"
+        ],
+        [
+          "test/good/background/IMG_7767.png"
+        ],
+        [
+          "test/good/background/IMG_7768.png"
+        ],
+        [
+          "test/good/background/IMG_7769.png"
+        ],
+        [
+          "test/good/background/IMG_7770.png"
+        ],
+        [
+          "test/good/background/IMG_7771.png"
+        ],
+        [
+          "test/good/background/IMG_7773.png"
+        ],
+        [
+          "test/good/background/IMG_7774.png"
+        ],
+        [
+          "test/good/background/IMG_7775.png"
+        ],
+        [
+          "test/good/background/IMG_7778.png"
+        ],
+        [
+          "test/good/background/IMG_7779.png"
+        ],
+        [
+          "test/good/background/IMG_7780.png"
+        ],
+        [
+          "test/good/background/IMG_7781.png"
+        ],
+        [
+          "test/good/background/IMG_7782.png"
+        ],
+        [
+          "test/good/background/IMG_7783.png"
+        ],
+        [
+          "test/good/background/IMG_7784.png"
+        ],
+        [
+          "test/good/background/IMG_7785.png"
+        ],
+        [
+          "test/good/background/IMG_7786.png"
+        ],
+        [
+          "test/good/background/IMG_7787.png"
+        ],
+        [
+          "test/good/background/IMG_7788.png"
+        ],
+        [
+          "test/good/background/IMG_7789.png"
+        ],
+        [
+          "test/good/background/IMG_7791.png"
+        ],
+        [
+          "test/good/background/IMG_7793.png"
+        ],
+        [
+          "test/good/background/IMG_7794.png"
+        ],
+        [
+          "test/good/background/IMG_7795.png"
+        ],
+        [
+          "test/good/background/IMG_7797.png"
+        ],
+        [
+          "test/good/background/IMG_7800.png"
+        ],
+        [
+          "test/good/background/IMG_8116.png"
+        ],
+        [
+          "test/good/background/IMG_8117.png"
+        ],
+        [
+          "test/good/background/IMG_8118.png"
+        ],
+        [
+          "test/good/background/IMG_8119.png"
+        ],
+        [
+          "test/good/background/IMG_8120.png"
+        ],
+        [
+          "test/good/background/IMG_8121.png"
+        ],
+        [
+          "test/good/background/IMG_8122.png"
+        ],
+        [
+          "test/good/background/IMG_8124.png"
+        ],
+        [
+          "test/good/background/IMG_8126.png"
+        ],
+        [
+          "test/good/background/IMG_8127.png"
+        ],
+        [
+          "test/good/background/IMG_8128.png"
+        ],
+        [
+          "test/good/background/IMG_8129.png"
+        ],
+        [
+          "test/good/background/IMG_8132.png"
+        ],
+        [
+          "test/good/background/IMG_8134.png"
+        ],
+        [
+          "test/good/background/IMG_8136.png"
+        ],
+        [
+          "test/good/background/IMG_8137.png"
+        ],
+        [
+          "test/good/background/IMG_8138.png"
+        ],
+        [
+          "test/good/background/IMG_8139.png"
+        ],
+        [
+          "test/good/background/IMG_8143.png"
+        ],
+        [
+          "test/good/background/IMG_8144.png"
+        ],
+        [
+          "test/good/background/IMG_8145.png"
+        ],
+        [
+          "test/good/background/IMG_8146.png"
+        ],
+        [
+          "test/good/background/IMG_8147.png"
+        ],
+        [
+          "test/good/background/IMG_8148.png"
+        ],
+        [
+          "test/good/background/IMG_8149.png"
+        ]
+      ],
+      "unit_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "image_keys": [
+        "test/good/background/IMG_7728.png",
+        "test/good/background/IMG_7729.png",
+        "test/good/background/IMG_7730.png",
+        "test/good/background/IMG_7736.png",
+        "test/good/background/IMG_7739.png",
+        "test/good/background/IMG_7740.png",
+        "test/good/background/IMG_7741.png",
+        "test/good/background/IMG_7742.png",
+        "test/good/background/IMG_7743.png",
+        "test/good/background/IMG_7744.png",
+        "test/good/background/IMG_7745.png",
+        "test/good/background/IMG_7747.png",
+        "test/good/background/IMG_7748.png",
+        "test/good/background/IMG_7749.png",
+        "test/good/background/IMG_7753.png",
+        "test/good/background/IMG_7755.png",
+        "test/good/background/IMG_7756.png",
+        "test/good/background/IMG_7757.png",
+        "test/good/background/IMG_7759.png",
+        "test/good/background/IMG_7760.png",
+        "test/good/background/IMG_7762.png",
+        "test/good/background/IMG_7763.png",
+        "test/good/background/IMG_7764.png",
+        "test/good/background/IMG_7766.png",
+        "test/good/background/IMG_7767.png",
+        "test/good/background/IMG_7768.png",
+        "test/good/background/IMG_7769.png",
+        "test/good/background/IMG_7770.png",
+        "test/good/background/IMG_7771.png",
+        "test/good/background/IMG_7773.png",
+        "test/good/background/IMG_7774.png",
+        "test/good/background/IMG_7775.png",
+        "test/good/background/IMG_7778.png",
+        "test/good/background/IMG_7779.png",
+        "test/good/background/IMG_7780.png",
+        "test/good/background/IMG_7781.png",
+        "test/good/background/IMG_7782.png",
+        "test/good/background/IMG_7783.png",
+        "test/good/background/IMG_7784.png",
+        "test/good/background/IMG_7785.png",
+        "test/good/background/IMG_7786.png",
+        "test/good/background/IMG_7787.png",
+        "test/good/background/IMG_7788.png",
+        "test/good/background/IMG_7789.png",
+        "test/good/background/IMG_7791.png",
+        "test/good/background/IMG_7793.png",
+        "test/good/background/IMG_7794.png",
+        "test/good/background/IMG_7795.png",
+        "test/good/background/IMG_7797.png",
+        "test/good/background/IMG_7800.png",
+        "test/good/background/IMG_8116.png",
+        "test/good/background/IMG_8117.png",
+        "test/good/background/IMG_8118.png",
+        "test/good/background/IMG_8119.png",
+        "test/good/background/IMG_8120.png",
+        "test/good/background/IMG_8121.png",
+        "test/good/background/IMG_8122.png",
+        "test/good/background/IMG_8124.png",
+        "test/good/background/IMG_8126.png",
+        "test/good/background/IMG_8127.png",
+        "test/good/background/IMG_8128.png",
+        "test/good/background/IMG_8129.png",
+        "test/good/background/IMG_8132.png",
+        "test/good/background/IMG_8134.png",
+        "test/good/background/IMG_8136.png",
+        "test/good/background/IMG_8137.png",
+        "test/good/background/IMG_8138.png",
+        "test/good/background/IMG_8139.png",
+        "test/good/background/IMG_8143.png",
+        "test/good/background/IMG_8144.png",
+        "test/good/background/IMG_8145.png",
+        "test/good/background/IMG_8146.png",
+        "test/good/background/IMG_8147.png",
+        "test/good/background/IMG_8148.png",
+        "test/good/background/IMG_8149.png"
+      ],
+      "target": 32,
+      "count": "1560606121612265215950",
+      "count_anchor": "1560606121612265215950",
+      "count_matches_anchor": true,
+      "draws": 10000,
+      "seed": "33703650452731607911305711290387131258894464442263641448953075776406923732708",
+      "seed_hex": "4a839713995226266addf22ddb9b1d7e1c0c6af66151ea2117284c524d4f66e4",
+      "inclusion": [
+        {
+          "unit": 0,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 1,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 2,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 3,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 4,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 5,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 6,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 7,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 8,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 9,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 10,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 11,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 12,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 13,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 14,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 15,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 16,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 17,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 18,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 19,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 20,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 21,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 22,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 23,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 24,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 25,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 26,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 27,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 28,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 29,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 30,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 31,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 32,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 33,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 34,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 35,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 36,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 37,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 38,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 39,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 40,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 41,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 42,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 43,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 44,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 45,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 46,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 47,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 48,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 49,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 50,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 51,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 52,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 53,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 54,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 55,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 56,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 57,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 58,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 59,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 60,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 61,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 62,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 63,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 64,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 65,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 66,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 67,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 68,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 69,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 70,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 71,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 72,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 73,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        },
+        {
+          "unit": 74,
+          "size": 1,
+          "value": "0.4266666666666667",
+          "numerator": "32",
+          "denominator": "75"
+        }
+      ],
+      "inclusion_weighted_sum": "32",
+      "inclusion_sum": {
+        "value": "32.0",
+        "numerator": "32",
+        "denominator": "1"
+      },
+      "duplicate_splits": 0,
+      "manifest": {
+        "path": "week8/outputs/arms-v1/manifest-I1.csv",
+        "rows": 10000,
+        "bytes": 1929149,
+        "sha256": "e3b29d08f00b3e8ffa9ce549214b0a39b96d884862b700d0cd4f9527294df724"
+      }
+    },
+    "G1": {
+      "kind": "group",
+      "units": [
+        [
+          "test/good/background/IMG_7728.png"
+        ],
+        [
+          "test/good/background/IMG_7729.png"
+        ],
+        [
+          "test/good/background/IMG_7730.png",
+          "test/good/background/IMG_7739.png",
+          "test/good/background/IMG_7742.png",
+          "test/good/background/IMG_7756.png",
+          "test/good/background/IMG_7759.png",
+          "test/good/background/IMG_7764.png"
+        ],
+        [
+          "test/good/background/IMG_7736.png"
+        ],
+        [
+          "test/good/background/IMG_7740.png",
+          "test/good/background/IMG_7763.png"
+        ],
+        [
+          "test/good/background/IMG_7741.png",
+          "test/good/background/IMG_7767.png",
+          "test/good/background/IMG_7794.png"
+        ],
+        [
+          "test/good/background/IMG_7743.png"
+        ],
+        [
+          "test/good/background/IMG_7744.png"
+        ],
+        [
+          "test/good/background/IMG_7745.png"
+        ],
+        [
+          "test/good/background/IMG_7747.png"
+        ],
+        [
+          "test/good/background/IMG_7748.png"
+        ],
+        [
+          "test/good/background/IMG_7749.png"
+        ],
+        [
+          "test/good/background/IMG_7753.png"
+        ],
+        [
+          "test/good/background/IMG_7755.png"
+        ],
+        [
+          "test/good/background/IMG_7757.png"
+        ],
+        [
+          "test/good/background/IMG_7760.png"
+        ],
+        [
+          "test/good/background/IMG_7762.png"
+        ],
+        [
+          "test/good/background/IMG_7766.png"
+        ],
+        [
+          "test/good/background/IMG_7768.png"
+        ],
+        [
+          "test/good/background/IMG_7769.png"
+        ],
+        [
+          "test/good/background/IMG_7770.png"
+        ],
+        [
+          "test/good/background/IMG_7771.png"
+        ],
+        [
+          "test/good/background/IMG_7773.png"
+        ],
+        [
+          "test/good/background/IMG_7774.png"
+        ],
+        [
+          "test/good/background/IMG_7775.png"
+        ],
+        [
+          "test/good/background/IMG_7778.png"
+        ],
+        [
+          "test/good/background/IMG_7779.png"
+        ],
+        [
+          "test/good/background/IMG_7780.png"
+        ],
+        [
+          "test/good/background/IMG_7781.png"
+        ],
+        [
+          "test/good/background/IMG_7782.png",
+          "test/good/background/IMG_7783.png",
+          "test/good/background/IMG_7784.png"
+        ],
+        [
+          "test/good/background/IMG_7785.png"
+        ],
+        [
+          "test/good/background/IMG_7786.png"
+        ],
+        [
+          "test/good/background/IMG_7787.png"
+        ],
+        [
+          "test/good/background/IMG_7788.png"
+        ],
+        [
+          "test/good/background/IMG_7789.png"
+        ],
+        [
+          "test/good/background/IMG_7791.png"
+        ],
+        [
+          "test/good/background/IMG_7793.png"
+        ],
+        [
+          "test/good/background/IMG_7795.png"
+        ],
+        [
+          "test/good/background/IMG_7797.png"
+        ],
+        [
+          "test/good/background/IMG_7800.png"
+        ],
+        [
+          "test/good/background/IMG_8116.png"
+        ],
+        [
+          "test/good/background/IMG_8117.png"
+        ],
+        [
+          "test/good/background/IMG_8118.png"
+        ],
+        [
+          "test/good/background/IMG_8119.png"
+        ],
+        [
+          "test/good/background/IMG_8120.png"
+        ],
+        [
+          "test/good/background/IMG_8121.png"
+        ],
+        [
+          "test/good/background/IMG_8122.png"
+        ],
+        [
+          "test/good/background/IMG_8124.png"
+        ],
+        [
+          "test/good/background/IMG_8126.png"
+        ],
+        [
+          "test/good/background/IMG_8127.png"
+        ],
+        [
+          "test/good/background/IMG_8128.png"
+        ],
+        [
+          "test/good/background/IMG_8129.png"
+        ],
+        [
+          "test/good/background/IMG_8132.png"
+        ],
+        [
+          "test/good/background/IMG_8134.png"
+        ],
+        [
+          "test/good/background/IMG_8136.png"
+        ],
+        [
+          "test/good/background/IMG_8137.png"
+        ],
+        [
+          "test/good/background/IMG_8138.png"
+        ],
+        [
+          "test/good/background/IMG_8139.png"
+        ],
+        [
+          "test/good/background/IMG_8143.png"
+        ],
+        [
+          "test/good/background/IMG_8144.png"
+        ],
+        [
+          "test/good/background/IMG_8145.png"
+        ],
+        [
+          "test/good/background/IMG_8146.png"
+        ],
+        [
+          "test/good/background/IMG_8147.png"
+        ],
+        [
+          "test/good/background/IMG_8148.png"
+        ],
+        [
+          "test/good/background/IMG_8149.png"
+        ]
+      ],
+      "unit_sizes": [
+        1,
+        1,
+        6,
+        1,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "image_keys": [
+        "test/good/background/IMG_7728.png",
+        "test/good/background/IMG_7729.png",
+        "test/good/background/IMG_7730.png",
+        "test/good/background/IMG_7736.png",
+        "test/good/background/IMG_7739.png",
+        "test/good/background/IMG_7740.png",
+        "test/good/background/IMG_7741.png",
+        "test/good/background/IMG_7742.png",
+        "test/good/background/IMG_7743.png",
+        "test/good/background/IMG_7744.png",
+        "test/good/background/IMG_7745.png",
+        "test/good/background/IMG_7747.png",
+        "test/good/background/IMG_7748.png",
+        "test/good/background/IMG_7749.png",
+        "test/good/background/IMG_7753.png",
+        "test/good/background/IMG_7755.png",
+        "test/good/background/IMG_7756.png",
+        "test/good/background/IMG_7757.png",
+        "test/good/background/IMG_7759.png",
+        "test/good/background/IMG_7760.png",
+        "test/good/background/IMG_7762.png",
+        "test/good/background/IMG_7763.png",
+        "test/good/background/IMG_7764.png",
+        "test/good/background/IMG_7766.png",
+        "test/good/background/IMG_7767.png",
+        "test/good/background/IMG_7768.png",
+        "test/good/background/IMG_7769.png",
+        "test/good/background/IMG_7770.png",
+        "test/good/background/IMG_7771.png",
+        "test/good/background/IMG_7773.png",
+        "test/good/background/IMG_7774.png",
+        "test/good/background/IMG_7775.png",
+        "test/good/background/IMG_7778.png",
+        "test/good/background/IMG_7779.png",
+        "test/good/background/IMG_7780.png",
+        "test/good/background/IMG_7781.png",
+        "test/good/background/IMG_7782.png",
+        "test/good/background/IMG_7783.png",
+        "test/good/background/IMG_7784.png",
+        "test/good/background/IMG_7785.png",
+        "test/good/background/IMG_7786.png",
+        "test/good/background/IMG_7787.png",
+        "test/good/background/IMG_7788.png",
+        "test/good/background/IMG_7789.png",
+        "test/good/background/IMG_7791.png",
+        "test/good/background/IMG_7793.png",
+        "test/good/background/IMG_7794.png",
+        "test/good/background/IMG_7795.png",
+        "test/good/background/IMG_7797.png",
+        "test/good/background/IMG_7800.png",
+        "test/good/background/IMG_8116.png",
+        "test/good/background/IMG_8117.png",
+        "test/good/background/IMG_8118.png",
+        "test/good/background/IMG_8119.png",
+        "test/good/background/IMG_8120.png",
+        "test/good/background/IMG_8121.png",
+        "test/good/background/IMG_8122.png",
+        "test/good/background/IMG_8124.png",
+        "test/good/background/IMG_8126.png",
+        "test/good/background/IMG_8127.png",
+        "test/good/background/IMG_8128.png",
+        "test/good/background/IMG_8129.png",
+        "test/good/background/IMG_8132.png",
+        "test/good/background/IMG_8134.png",
+        "test/good/background/IMG_8136.png",
+        "test/good/background/IMG_8137.png",
+        "test/good/background/IMG_8138.png",
+        "test/good/background/IMG_8139.png",
+        "test/good/background/IMG_8143.png",
+        "test/good/background/IMG_8144.png",
+        "test/good/background/IMG_8145.png",
+        "test/good/background/IMG_8146.png",
+        "test/good/background/IMG_8147.png",
+        "test/good/background/IMG_8148.png",
+        "test/good/background/IMG_8149.png"
+      ],
+      "target": 32,
+      "count": "1672464128242708178",
+      "count_anchor": "1672464128242708178",
+      "count_matches_anchor": true,
+      "draws": 10000,
+      "seed": "99681340749277304668693672370682719431996711384292590445742509059668051408245",
+      "seed_hex": "dc61a3b628edf15c4faa51eb682c988da0ff7bca00715f0b660789c501a6b575",
+      "inclusion": [
+        {
+          "unit": 0,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 1,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 2,
+          "size": 6,
+          "value": "0.17233258583266367",
+          "numerator": "2296363347",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 3,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 4,
+          "size": 2,
+          "value": "0.4143804425896885",
+          "numerator": "5521695479",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 5,
+          "size": 3,
+          "value": "0.36746058950344357",
+          "numerator": "4896479822",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 6,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 7,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 8,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 9,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 10,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 11,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 12,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 13,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 14,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 15,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 16,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 17,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 18,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 19,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 20,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 21,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 22,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 23,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 24,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 25,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 26,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 27,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 28,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 29,
+          "size": 3,
+          "value": "0.36746058950344357",
+          "numerator": "4896479822",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 30,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 31,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 32,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 33,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 34,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 35,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 36,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 37,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 38,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 39,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 40,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 41,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 42,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 43,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 44,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 45,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 46,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 47,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 48,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 49,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 50,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 51,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 52,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 53,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 54,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 55,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 56,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 57,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 58,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 59,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 60,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 61,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 62,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 63,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        },
+        {
+          "unit": 64,
+          "size": 1,
+          "value": "0.45790950922629475",
+          "numerator": "6101728284",
+          "denominator": "13325183603"
+        }
+      ],
+      "inclusion_weighted_sum": "32",
+      "inclusion_sum": {
+        "value": "29.25411427023322",
+        "numerator": "389816443794",
+        "denominator": "13325183603"
+      },
+      "duplicate_splits": 0,
+      "manifest": {
+        "path": "week8/outputs/arms-v1/manifest-G1.csv",
+        "rows": 10000,
+        "bytes": 1906344,
+        "sha256": "9a904815a7afeb7c4e4f6243b767b2354663c9a54f3382d2e0a8530ebdff7e1c"
+      }
+    }
+  },
+  "isolation": {
+    "window": "plan",
+    "opened_paths": [
+      "week7/acceptance/stage7-background-2026-11-05/roles-background-v1.json",
+      "week8/acceptance/stage8-grouping-2026-11-06/groups-dh4.csv",
+      "week8/acceptance/stage8-grouping-2026-11-06/decision-check.json"
+    ],
+    "score_paths_opened": [],
+    "scores_read": false,
+    "ok": true
+  },
+  "elapsed_seconds": 18.751
+}

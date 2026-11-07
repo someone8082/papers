@@ -1,9 +1,9 @@
 {
-  "command": "E:/yingyong/an/envs/iad-week1/python.exe -B verify_metric.py",
+  "command": "E:/yingyong/an/envs/iad-week1/python.exe -B verify_sampler.py",
   "cwd": "E:\\ABB_Spray_Project\\ideas\\papers\\week8\\grouped-split-lab",
-  "duration_seconds": 0.157,
+  "duration_seconds": 0.531,
   "returncode": 0,
   "stderr": "",
-  "stdout": "case 01 PASS single_node\ncase 02 PASS duplicate_key\ncase 03 PASS unknown_endpoint\ncase 04 PASS self_loop\ncase 05 PASS reverse_and_duplicate_edges\ncase 06 PASS isolated_nodes\ncase 07 PASS chain_transitive\ncase 08 PASS input_order_invariance\ncase 09 PASS structure_invariants\ncase 10 PASS non_positive_size\ncase 11 PASS non_integer_size\ncase 12 PASS negative_target\ncase 13 PASS target_above_total\ncase 14 PASS non_integer_target\ncase 15 PASS empty_and_zero\ncase 16 PASS non_empty_target_zero\ncase 17 PASS target_equals_total\ncase 18 PASS six_singletons\ncase 19 PASS real_scale_feasible\ncase 20 PASS real_scale_infeasible\ncase 21 PASS equal_sizes_distinct\ncase 22 PASS three_pairs\ncase 23 PASS binomial_exact\ncase 24 PASS fixture_enumeration\n{\"failed_cases\": 0, \"total_cases\": 24}\n",
+  "stdout": "case 01 PASS non_positive_size\ncase 02 PASS non_integer_size\ncase 03 PASS negative_target\ncase 04 PASS target_above_total\ncase 05 PASS non_integer_target\ncase 06 PASS excluded_validation\ncase 07 PASS edges_of_target\ncase 08 PASS equal_sizes_distinct\ncase 09 PASS infeasible_and_feasible\ncase 10 PASS fixture_enumeration\ncase 11 PASS real_grouped_count\ncase 12 PASS real_anchored_count\ncase 13 PASS bijection_small\ncase 14 PASS rank_order\ncase 15 PASS illegal_rank\ncase 16 PASS return_type\ncase 17 PASS excluded_never_selected\ncase 18 PASS anchored_set_equality\ncase 19 PASS real_endpoints\ncase 20 PASS sample_legality\ncase 21 PASS rank_mechanism\ncase 22 PASS seed_semantics\ncase 23 PASS real_accounting\ncase 24 PASS inclusion_probabilities\n{\"failed_cases\": 0, \"total_cases\": 24}\n",
   "timed_out": false
 }

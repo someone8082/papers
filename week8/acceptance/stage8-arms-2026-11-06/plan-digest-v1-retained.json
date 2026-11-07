@@ -1,0 +1,69 @@
+{
+  "status": "STAGE8_ARMS_PLAN_FROZEN",
+  "frozen_at": "2026-11-06T21:45:19+0800",
+  "draws": 10000,
+  "seeds": {
+    "I0": "61937105059941883325076333843977634653393982328370545507596944003791737639513",
+    "G0": "107693782000391971249738558925557697982381009792040192133629104653976747538956",
+    "I1": "33703650452731607911305711290387131258894464442263641448953075776406923732708",
+    "G1": "99681340749277304668693672370682719431996711384292590445742509059668051408245"
+  },
+  "counts": {
+    "I0": "8661069563374624785150762",
+    "G0": "1672489259948266974",
+    "I1": "1560606121612265215950",
+    "G1": "1672464128242708178"
+  },
+  "manifest_row_counts": {
+    "I0": 10000,
+    "G0": 10000,
+    "I1": 10000,
+    "G1": 10000
+  },
+  "files": {
+    "week8/stage8-arms-protocol-2026-11-06.md": {
+      "bytes": 9407,
+      "sha256": "78af53dd69b5603beff2337a0a0c7c97216cea02ee71b688ebdcfcad7eff690e"
+    },
+    "week8/arms.py": {
+      "bytes": 35710,
+      "sha256": "3100bcbc99a5285fa2fc8da2eadd2b1166fdd371dee4d9826571ee0e4091614d"
+    },
+    "week8/grouped-split-lab/src/sampler.py": {
+      "bytes": 5249,
+      "sha256": "87488912f00842573ded54209b76ae343cfc307cc887b548dc68a4dd771ac2c0"
+    },
+    "week7/acceptance/stage7-background-2026-11-05/roles-background-v1.json": {
+      "bytes": 27316,
+      "sha256": "3f25250965a078865181adc8ee7c2ac7d28eef4c5c933b89f610e432ec3010a1"
+    },
+    "week8/acceptance/stage8-grouping-2026-11-06/groups-dh4.csv": {
+      "bytes": 3784,
+      "sha256": "4fb5780bd9e89b88eba360d6d9912ee00cf59826900607e13d8b9577c44b9319"
+    },
+    "week8/acceptance/stage8-grouping-2026-11-06/decision-check.json": {
+      "bytes": 1497,
+      "sha256": "2ed91b5c6bba613099d3ef3c0c387ea5681533ba5b2f87b565d4559215040a40"
+    },
+    "week8/acceptance/stage8-arms-2026-11-06/arms-plan.json": {
+      "bytes": 98471,
+      "sha256": "616e174f9181b6e86470513e806f2ddea3d2bbd3fea0c97caa3612a117454fc6"
+    },
+    "week8/outputs/arms-v1/manifest-I0.csv": {
+      "bytes": 1973305,
+      "sha256": "5842e1e914f60c57bff227387303f53af853ab9ae58a569a5a4911c364891bd9"
+    },
+    "week8/outputs/arms-v1/manifest-G0.csv": {
+      "bytes": 1926797,
+      "sha256": "c0fd8035aec2ce014c5a93d49256f861cf7a9ed64f624c34862b4c585074b127"
+    },
+    "week8/outputs/arms-v1/manifest-I1.csv": {
+      "bytes": 1929149,
+      "sha256": "e3b29d08f00b3e8ffa9ce549214b0a39b96d884862b700d0cd4f9527294df724"
+    },
+    "week8/outputs/arms-v1/manifest-G1.csv": {
+      "bytes": 1906344,
+      "sha256": "9a904815a7afeb7c4e4f6243b767b2354663c9a54f3382d2e0a8530ebdff7e1c"
+    }
+  }
+}

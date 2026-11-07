@@ -1,0 +1,19 @@
+{
+  "status": "STAGE8_ARMS_V2_OUTPUT_DIGEST",
+  "frozen_at": "2026-11-07T08:58:57+0800",
+  "inputs": {
+    "plan-digest-v1": "5e222e8e3e86a732d06211c0beef4c515f69130927b1ab6e513efc37a30eb628",
+    "protocol-v2": "bcce7b001bed93678380cabd325fde8961e16cb079236c036207db50b4d1d8ab",
+    "arms-v1-frozen": "cc33ceeaa167b05d5069534f3f1468095bc0792f1d6864e9201054add9a118a4",
+    "arms-v2": "bab2fbb244929a33244bf4115c95291fe5b723775c7756979730ba50d9703cbc",
+    "manifest-I0": "5842e1e914f60c57bff227387303f53af853ab9ae58a569a5a4911c364891bd9",
+    "manifest-G0": "c0fd8035aec2ce014c5a93d49256f861cf7a9ed64f624c34862b4c585074b127",
+    "manifest-I1": "e3b29d08f00b3e8ffa9ce549214b0a39b96d884862b700d0cd4f9527294df724",
+    "manifest-G1": "9a904815a7afeb7c4e4f6243b767b2354663c9a54f3382d2e0a8530ebdff7e1c"
+  },
+  "outputs": {
+    "eval-v2.json": "927984759298f91fd72de02ff961b0307ba4a36830162e7cbff73fd911cfa959",
+    "eval-rows-v2.csv": "50f8d00fc1ef14be63bbaf9e00b34ad3496427226c7d4aede21f73d4efdbc3e9"
+  },
+  "modified_v1_files": 0
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "stage8-sampler-pinned",
+  "case_count": 24,
+  "fixture_instances": 40,
+  "protected": {
+    "SAMPLER-CONTRACT.md": {
+      "sha256": "0c1ea6d9d8a9024cab8fa2270514a492092621163a501c6ebb2c3e4006e74cba",
+      "bytes": 7614
+    },
+    "verify_sampler.py": {
+      "sha256": "4391679700764a83d2fe7de82933ecd4ccf233086ca3660b6ca06337fa10e985",
+      "bytes": 24980
+    },
+    "sampler_fixtures/sampler-cases.json": {
+      "sha256": "0b872b0ae9f3758572fd7ce79084e30dc6f13b14b7e8fd0d203694623ae80d2c",
+      "bytes": 6976
+    },
+    "sampler_tools/gen_sampler_fixtures.py": {
+      "sha256": "5a1aa5f9ccc0b3e081b02f00f5291aacb227b13affa8dbeb7ea442d2a1f12e8d",
+      "bytes": 5320
+    }
+  },
+  "first_round": {
+    "CONTRACT.md": {
+      "sha256": "14e30509eb2b60ac1d5970486da9445dc3dc368658ed07df230818ebb25aaf15",
+      "bytes": 5897
+    },
+    "verify_metric.py": {
+      "sha256": "f0d23f4c86858c6b5fb4c7f1f9dfda44d6557260717c17242f00ee61066e8589",
+      "bytes": 11694
+    },
+    "guard.py": {
+      "sha256": "92ce9c246b75f6f003652c2cabc2702a496c3d40d1796943b5fc0553d397dca3",
+      "bytes": 7164
+    },
+    "PINNED.json": {
+      "sha256": "3eff5acbf54a822cc9a9f2437b1d646fe262ffe43983f4808448a4fd116ffcc2",
+      "bytes": 8666
+    },
+    "fixtures/case24-cases.json": {
+      "sha256": "a0de53199610c4197cd6e2392461c8d2c60b4d5f116fbf6d70ac40cc8d140446",
+      "bytes": 4914
+    },
+    "tools/gen_fixtures.py": {
+      "sha256": "6cf33006a581b77ffdbfec234e92f2ea19d494ad4b46a17bad418faff4e7921b",
+      "bytes": 2229
+    },
+    "README.md": {
+      "sha256": "0e27fb4bec8ebf57477c47c3474e6cb866ff2a7ed8da546d145073e54af237fa",
+      "bytes": 660
+    }
+  },
+  "archive_via": "PINNED.json",
+  "scope": {
+    "mutable": [
+      "src/sampler.py"
+    ]
+  }
+}

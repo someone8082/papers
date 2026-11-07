@@ -1,0 +1,30 @@
+{
+  "status": "STAGE8_ARMS_V2_VERIFICATION_DIGEST",
+  "files": {
+    "c-star-cases.json": {
+      "bytes": 8229,
+      "sha256": "040d079c85baa8aaf1dcec8c6440eafdd82df02c2af860e038b26e9151e0e295"
+    },
+    "eval-rows-v2.csv": {
+      "bytes": 3688497,
+      "sha256": "50f8d00fc1ef14be63bbaf9e00b34ad3496427226c7d4aede21f73d4efdbc3e9"
+    },
+    "eval-v2.json": {
+      "bytes": 18924,
+      "sha256": "927984759298f91fd72de02ff961b0307ba4a36830162e7cbff73fd911cfa959"
+    },
+    "independent-eval-v2.json": {
+      "bytes": 9874,
+      "sha256": "66e0c7ac8b33413fb33d3d36a7a06165e20210cebff0ba888762a52dbdf0ebc3"
+    },
+    "output-digest.json": {
+      "bytes": 1031,
+      "sha256": "58c16093568edfec53c358b5eb72dc0b44c4f08bec56efa94c2e56843bd0d78f"
+    },
+    "selftest-v2.json": {
+      "bytes": 3115,
+      "sha256": "1c78a1ddf68fcff49fddedeb359f03fad40bfe34ec3420314d6fcc08d81f8378"
+    }
+  },
+  "excludes": "verification-digest.json itself"
+}

@@ -1,0 +1,9 @@
+{
+  "command": "E:/yingyong/an/envs/iad-week1/python.exe -B guard.py",
+  "cwd": "E:\\ABB_Spray_Project\\ideas\\papers\\week8\\grouped-split-lab",
+  "duration_seconds": 0.265,
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "OK   pinned_digest\nOK   protected:CONTRACT.md\nOK   protected:verify_metric.py\nOK   protected:fixtures/case24-cases.json\nOK   protected:tools/gen_fixtures.py\nOK   case_count\nOK   fixture_instances\nOK   manifest:week5/acceptance/freeze-v1-2026-11-02/freeze-manifest.json\nOK   manifest:week5/acceptance/freeze-second-pool-2026-11-03/freeze-manifest.json\nOK   manifest:week6/acceptance/route-b-freeze-2026-11-04/freeze-manifest.json\nOK   manifest:week7/acceptance/stage7-background-2026-11-05/freeze-manifest.json\nOK   archive_coverage\nOK   archive_agreement\nOK   archive_files\nOK   git_protected_clean\nguard: 15 checks, 0 failed\n",
+  "timed_out": false
+}

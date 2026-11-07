@@ -1,0 +1,208 @@
+{
+  "status": "STAGE8_EXACT_AUDIT",
+  "method": "Independent, read-only-input audit; writes a new sidecar, never old results.\n\nExact state masses partition allocations by the two highest calibration keys.\nRequired eval/cal memberships force whole units; free units are counted by\ninteger polynomial coefficients. No sampler or existing evaluator is imported.\n",
+  "frozen_hashes_checked": 12,
+  "arms": {
+    "I0": {
+      "total": "8661069563374624785150762",
+      "exact_states": {
+        "budget_gain": {
+          "exact": "2010489484/8194138953",
+          "p": 0.2453570162199811
+        },
+        "budget_no_gain": {
+          "exact": "367891/583947",
+          "p": 0.6300075178055543
+        },
+        "mid_over_budget": {
+          "exact": "6893732/792981189",
+          "p": 0.008693436988957377
+        },
+        "both_over_budget": {
+          "exact": "8/69",
+          "p": 0.11594202898550725
+        }
+      },
+      "top_two_joint": {
+        "exact": "8/69",
+        "p": 0.11594202898550725
+      },
+      "top_two_marginals": [
+        "32/93",
+        "32/93"
+      ],
+      "top_two_covariance": "-488/198927",
+      "rows": 10000,
+      "states": {
+        "budget_no_gain": 6295,
+        "budget_gain": 2487,
+        "both_over_budget": 1160,
+        "mid_over_budget": 58
+      },
+      "four_rule_and_state_row_mismatches": 0,
+      "c_star_changed_rows": 6149,
+      "correct_c_star_lower_rows": 973,
+      "correct_c_star_higher_rows": 5176,
+      "bounds_corrected": {
+        "feasible_rows": 8840,
+        "infeasible_rows": 1160,
+        "c_star_mean_given_feasible": 15.408031674208145,
+        "u_mean_all": 18.8986,
+        "u_mean_given_feasible": 21.378506787330316,
+        "gap_mean_given_feasible": 5.970475113122172
+      }
+    },
+    "I1": {
+      "total": "1560606121612265215950",
+      "exact_states": {
+        "budget_gain": {
+          "exact": "177332/607725",
+          "p": 0.2917964539882348
+        },
+        "budget_no_gain": {
+          "exact": "321769/607725",
+          "p": 0.5294648072730265
+        },
+        "mid_over_budget": {
+          "exact": "0",
+          "p": 0.0
+        },
+        "both_over_budget": {
+          "exact": "496/2775",
+          "p": 0.17873873873873874
+        }
+      },
+      "top_two_joint": {
+        "exact": "496/2775",
+        "p": 0.17873873873873874
+      },
+      "top_two_marginals": [
+        "32/75",
+        "32/75"
+      ],
+      "top_two_covariance": "-688/208125",
+      "rows": 10000,
+      "states": {
+        "budget_no_gain": 5356,
+        "budget_gain": 2853,
+        "both_over_budget": 1791
+      },
+      "four_rule_and_state_row_mismatches": 0,
+      "c_star_changed_rows": 5096,
+      "correct_c_star_lower_rows": 1453,
+      "correct_c_star_higher_rows": 3643,
+      "bounds_corrected": {
+        "feasible_rows": 8209,
+        "infeasible_rows": 1791,
+        "c_star_mean_given_feasible": 13.279814837373614,
+        "u_mean_all": 16.2488,
+        "u_mean_given_feasible": 19.79388476062858,
+        "gap_mean_given_feasible": 6.514069923254964
+      }
+    },
+    "G0": {
+      "total": "1672489259948266974",
+      "exact_states": {
+        "budget_gain": {
+          "exact": "84255740397868694/278748209991377829",
+          "p": 0.3022646868314414
+        },
+        "budget_no_gain": {
+          "exact": "136667883511140424/278748209991377829",
+          "p": 0.4902915197746662
+        },
+        "mid_over_budget": {
+          "exact": "10998013059/92916069997125943",
+          "p": 1.1836502619342583e-07
+        },
+        "both_over_budget": {
+          "exact": "19274851029443178/92916069997125943",
+          "p": 0.20744367502886618
+        }
+      },
+      "top_two_joint": {
+        "exact": "19274851029443178/92916069997125943",
+        "p": 0.20744367502886618
+      },
+      "top_two_marginals": [
+        "42546827467520380/92916069997125943",
+        "42546827467520380/92916069997125943"
+      ],
+      "top_two_covariance": "-19289120115029304698494087177546/8633396063710807837216280203639249",
+      "rows": 10000,
+      "states": {
+        "budget_gain": 3001,
+        "budget_no_gain": 4915,
+        "both_over_budget": 2084
+      },
+      "four_rule_and_state_row_mismatches": 0,
+      "c_star_changed_rows": 4896,
+      "correct_c_star_lower_rows": 1608,
+      "correct_c_star_higher_rows": 3288,
+      "bounds_corrected": {
+        "feasible_rows": 7916,
+        "infeasible_rows": 2084,
+        "c_star_mean_given_feasible": 11.994315310763012,
+        "u_mean_all": 14.6359,
+        "u_mean_given_feasible": 18.48900960080849,
+        "gap_mean_given_feasible": 6.494694290045477
+      }
+    },
+    "G1": {
+      "total": "1672464128242708178",
+      "exact_states": {
+        "budget_gain": {
+          "exact": "491386410377/1625672399566",
+          "p": 0.30226656398188445
+        },
+        "budget_no_gain": {
+          "exact": "797046639093/1625672399566",
+          "p": 0.49028736620353813
+        },
+        "mid_over_budget": {
+          "exact": "0",
+          "p": 0.0
+        },
+        "both_over_budget": {
+          "exact": "2764256968/13325183603",
+          "p": 0.2074460698145774
+        }
+      },
+      "top_two_joint": {
+        "exact": "2764256968/13325183603",
+        "p": 0.2074460698145774
+      },
+      "top_two_marginals": [
+        "6101728284/13325183603",
+        "6101728284/13325183603"
+      ],
+      "top_two_covariance": "-396856427293488952/177560518053660061609",
+      "rows": 10000,
+      "states": {
+        "budget_no_gain": 4947,
+        "budget_gain": 3016,
+        "both_over_budget": 2037
+      },
+      "four_rule_and_state_row_mismatches": 0,
+      "c_star_changed_rows": 4976,
+      "correct_c_star_lower_rows": 1618,
+      "correct_c_star_higher_rows": 3358,
+      "bounds_corrected": {
+        "feasible_rows": 7963,
+        "infeasible_rows": 2037,
+        "c_star_mean_given_feasible": 11.816903177194524,
+        "u_mean_all": 14.603,
+        "u_mean_given_feasible": 18.3385658671355,
+        "gap_mean_given_feasible": 6.521662689940977
+      }
+    }
+  },
+  "i0_mid_over_standard_error_pp": 0.09283243583078278,
+  "i0_mid_over_three_sigma_pp": 0.27849730749234836,
+  "source_hashes": {
+    "week8\\acceptance\\stage8-arms-2026-11-06\\plan-digest.json": "5e222e8e3e86a732d06211c0beef4c515f69130927b1ab6e513efc37a30eb628",
+    "week8\\acceptance\\stage8-arms-2026-11-06\\eval.json": "7fee0f4c60f03877d9e32588334d96f4ac6a0f6ef27cb1aabdb18fb9496ba680",
+    "week8\\acceptance\\stage8-arms-2026-11-06\\eval-rows.csv": "03312f357aeb538e9503da542cbe1218465c1d160e3d8c8931be11de99b42af2",
+    "week8\\audit_arms_exact.py": "a50f317787558ee39fed85e7b153d340c4c7ca174433e12adc503d0f8a534680"
+  }
+}

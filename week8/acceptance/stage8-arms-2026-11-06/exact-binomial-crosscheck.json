@@ -1,0 +1,18 @@
+{
+  "I0": {
+    "exact_mass_matches": true,
+    "whole_nonsingleton_assignments": 1
+  },
+  "I1": {
+    "exact_mass_matches": true,
+    "whole_nonsingleton_assignments": 1
+  },
+  "G0": {
+    "exact_mass_matches": true,
+    "whole_nonsingleton_assignments": 32
+  },
+  "G1": {
+    "exact_mass_matches": true,
+    "whole_nonsingleton_assignments": 16
+  }
+}

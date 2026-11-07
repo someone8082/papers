@@ -1,0 +1,122 @@
+{
+  "status": "STAGE8_I0_GATE_DIAGNOSIS",
+  "exact": {
+    "budget_gain": 0.2453570162199811,
+    "budget_no_gain": 0.6300075178055543,
+    "mid_over_budget": 0.008693436988957377,
+    "both_over_budget": 0.11594202898550725
+  },
+  "gate": {
+    "rule": "each state within 3 sigma of the exact value",
+    "sigma_basis": "sqrt(p(1-p)/10000)"
+  },
+  "i0_manifest": {
+    "rows": 10000,
+    "observed": {
+      "budget_gain": 0.2487,
+      "budget_no_gain": 0.6295,
+      "mid_over_budget": 0.0058,
+      "both_over_budget": 0.116
+    },
+    "z": {
+      "budget_gain": 0.776898457808385,
+      "budget_no_gain": -0.10511918077146311,
+      "mid_over_budget": -3.1168383798865347,
+      "both_over_budget": 0.018107149208505105
+    },
+    "counts": {
+      "budget_gain": 2487,
+      "budget_no_gain": 6295,
+      "mid_over_budget": 58,
+      "both_over_budget": 1160
+    },
+    "mid_over_tail": {
+      "k": 58,
+      "expected": 86.93436988957377,
+      "p_X_le_k": 0.0006030110485887503,
+      "log10": -3.219674730484777
+    }
+  },
+  "replication_A_random_sample": {
+    "n": 100000,
+    "p": {
+      "budget_gain": 0.24683,
+      "budget_no_gain": 0.62928,
+      "mid_over_budget": 0.00918,
+      "both_over_budget": 0.11471
+    }
+  },
+  "replication_B_lab_decode": {
+    "n": 20000,
+    "p": {
+      "budget_gain": 0.24435,
+      "budget_no_gain": 0.63065,
+      "mid_over_budget": 0.0089,
+      "both_over_budget": 0.1161
+    }
+  },
+  "joint_fp_table": {
+    "I0": {
+      "0,0": 5784,
+      "0,1": 774,
+      "1,1": 2224,
+      "1,2": 54,
+      "1,3": 2,
+      "1,4": 2,
+      "2,2": 713,
+      "2,3": 67,
+      "2,4": 10,
+      "2,5": 1,
+      "3,3": 169,
+      "3,4": 70,
+      "3,5": 8,
+      "3,6": 3,
+      "4,4": 75,
+      "4,6": 7,
+      "5,5": 19,
+      "5,6": 3,
+      "6,6": 10,
+      "6,7": 1,
+      "7,7": 2,
+      "8,8": 2
+    },
+    "G0": {
+      "0,0": 4285,
+      "0,1": 1119,
+      "1,1": 2512,
+      "2,2": 1162,
+      "3,3": 521,
+      "4,4": 322,
+      "4,6": 79
+    },
+    "I1": {
+      "0,0": 4752,
+      "0,1": 1053,
+      "1,1": 2404,
+      "2,2": 1079,
+      "3,3": 416,
+      "4,4": 253,
+      "4,6": 43
+    },
+    "G1": {
+      "0,0": 4319,
+      "0,1": 1123,
+      "1,1": 2521,
+      "2,2": 1088,
+      "3,3": 529,
+      "4,4": 329,
+      "4,6": 91
+    }
+  },
+  "anchor_floor": {
+    "anchor_top": 0.5479057431221008,
+    "anchor_second": 0.4276386290788651,
+    "eligible_top": [
+      0.6730910897254944,
+      0.6242042005062103,
+      0.5770623207092285,
+      0.5555301070213318
+    ],
+    "note": "the 18-image group stays on the calibration side in G0/I1/G1, so the second-highest calibration score can never fall below the group's second-highest score; MID12 therefore stays above the eligible tail whenever MAX is feasible, and no (FP_max=1, FP_mid=2) row occurs"
+  }
+}
