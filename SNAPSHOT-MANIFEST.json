@@ -1,6 +1,6 @@
 {
-  "snapshot_date": "2026-11-07",
-  "purpose": "Selected stage5-stage7 reports and complete registered stage8 closure snapshot, without external datasets or weights",
+  "snapshot_date": "2026-11-24",
+  "purpose": "Selected reports, verified stage8 evidence, and the bilingual AeBAD-S manuscript and figure sources",
   "source_lab_commit": "6667d44e8546011d10afd20412b61fa0fe7028db",
   "files": {
     "week5/week5-report-route-c-v1.md": {
@@ -346,6 +346,106 @@
     "week8/acceptance/stage8-closure-2026-11-07/closure-check.json": {
       "bytes": 23448,
       "sha256": "a24abb74a72c7ee6ed76772a6aa18de6fccd37944d495ae831daab8147f43b62"
+    },
+    "manuscript/2026-11-19-draft-v0.md": {
+      "bytes": 32023,
+      "sha256": "2c185dd4892815871add950de642e438962daad8c8ca050467f03a41d02e3da2"
+    },
+    "manuscript/arxiv/manuscript-en.md": {
+      "bytes": 32295,
+      "sha256": "64d33b94fd6f506795295b09f6abac45607eaf51264d6aed60ba26fb82b55eed"
+    },
+    "manuscript/arxiv/README.md": {
+      "bytes": 2781,
+      "sha256": "39d0417074d8c1c106ea0e4bf1b27b12bd848c074d2a3c5d8713e6b18d684ad6"
+    },
+    "manuscript/arxiv/arxiv-metadata.txt": {
+      "bytes": 1575,
+      "sha256": "1372cf2261a1ae3b950fad58798bc6d5befdda935d5e670401fb9364eeced76a"
+    },
+    "manuscript/arxiv/aebad-grouped-splits-bilingual.pdf": {
+      "bytes": 14667551,
+      "sha256": "f11b106bbfa573310f49f9c9582a239edc04ff119c42261e2b126add49fe5814"
+    },
+    "manuscript/arxiv/aebad-grouped-splits-bilingual.docx": {
+      "bytes": 8807680,
+      "sha256": "3d41bc8b86c246f8e2b593f4fe790ee9e1d81a7240a256049d9fb6adde5f75f5"
+    },
+    "manuscript/arxiv/render.py": {
+      "bytes": 12384,
+      "sha256": "53809e32f5deb9836525dbb30e48e67da128319453f35447038b7c61c838ee05"
+    },
+    "manuscript/arxiv/render_docx.py": {
+      "bytes": 13489,
+      "sha256": "dd4df3112b1e5080b1b18fb2f6df7ac2f9bc8e28771510892994a96b0d063ed3"
+    },
+    "manuscript/figures/plot-study-materials.py": {
+      "bytes": 10078,
+      "sha256": "58e8f00e41d58e875add1fc0c766bfd0ac33ef06f73ae80ec54b5fad620d2c47"
+    },
+    "manuscript/figures/render-result-figures.py": {
+      "bytes": 9187,
+      "sha256": "167b994169f43d571faa1ce0340101dbbca4cf9622c1d1221492ab54601cca2e"
+    },
+    "manuscript/figures/figure-2-layout-enumeration.py": {
+      "bytes": 5559,
+      "sha256": "b389d24859e1fb6b39a6ee373e556ae4d69da94f3287f2b4ebcbc525feb6cf4a"
+    },
+    "manuscript/figures/figure-1-aebad-examples.png": {
+      "bytes": 3670465,
+      "sha256": "95f5cbeeecd2e09503d437f0cfb113e7811756e656ef672c0c997abd1904a725"
+    },
+    "manuscript/figures/figure-2-allocation-protocol.png": {
+      "bytes": 325813,
+      "sha256": "62a269a239017dea1f7ed62376efc22e3a574f8c9aeddfad8d492cb15b574679"
+    },
+    "manuscript/figures/figure-2-allocation-protocol.svg": {
+      "bytes": 17105,
+      "sha256": "f9d30202b94339f115951b332acd0bf15384a8fb3d857b69f90e9288aad73b34"
+    },
+    "manuscript/figures/figure-3-outcome-contrasts.png": {
+      "bytes": 146042,
+      "sha256": "49382a20a12845f3555fdb110b58555560cfeb11a744745693576b94c2583a11"
+    },
+    "manuscript/figures/figure-3-outcome-contrasts.svg": {
+      "bytes": 45928,
+      "sha256": "e9603b6c5f7bb6d4d1d5ee598efc1bd7e522b1acb2e7ff376e02fa890f5b1736"
+    },
+    "manuscript/figures/figure-4-layout-sensitivity.png": {
+      "bytes": 318730,
+      "sha256": "b7dfe222522a07fabdc5e289d92753720e9c7b33a03e6f1737260b8da4a6aeb2"
+    },
+    "manuscript/figures/figure-4-layout-sensitivity.svg": {
+      "bytes": 402554,
+      "sha256": "9991e77efa7c94eb6c34818e2539f165d429ccfd6f5e7b3bcb49e5a96d81e94f"
+    },
+    "manuscript/arxiv/figures/figure-1-examples-en.png": {
+      "bytes": 3674720,
+      "sha256": "930f95978b9124768666181232dbbe02e3f7c32fad47e8b40e8eba00438d6de9"
+    },
+    "manuscript/arxiv/figures/figure-2-protocol-en.png": {
+      "bytes": 334786,
+      "sha256": "3d8b304be0b18bd2a8ff135e8882d7a3b87568cd8ecfa0c27f8dda6fd3a5dd5f"
+    },
+    "manuscript/arxiv/figures/figure-2-protocol-en.svg": {
+      "bytes": 17104,
+      "sha256": "2da42eac8b7dc1888e5052dd6f57430532fafb90c561f56aeeda595cea6f168a"
+    },
+    "manuscript/arxiv/figures/figure-3-contrasts-en.png": {
+      "bytes": 167176,
+      "sha256": "a9bcde0aaeeff74a2983bb52688d00b50730721e48164d9e75535d16bdb035ca"
+    },
+    "manuscript/arxiv/figures/figure-3-contrasts-en.svg": {
+      "bytes": 41563,
+      "sha256": "0a8378563f5939a5fdb9bd395567db37c61eede195f1338d8f0aef0c45ff6c1e"
+    },
+    "manuscript/arxiv/figures/figure-4-layout-en.png": {
+      "bytes": 315123,
+      "sha256": "e6c8ec207cf63768ebb9aa5ae81b8dd1c803eb98569ecc9b807b94a12398395c"
+    },
+    "manuscript/arxiv/figures/figure-4-layout-en.svg": {
+      "bytes": 395587,
+      "sha256": "6a6f811d73a9f0d40ffba9421f81c6a93b6329532b2c7df742e9563dce9e7e0d"
     }
   },
   "omitted": [

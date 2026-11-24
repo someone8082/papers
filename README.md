@@ -2,6 +2,17 @@
 
 本仓库同步 AeBAD-S 异常检测研究的部分报告、分组证据和已验收计算工具。2026-11-06 首批快照；完整本地归档仍为事实来源。文件保持原字节，摘要见 [SNAPSHOT-MANIFEST.json](SNAPSHOT-MANIFEST.json)。
 
+## 论文稿件
+
+2026-11-24 版为 AeBAD-S 少样本异常检测双语预印本草稿，英文在前、中文在后。
+
+- [双语 PDF](manuscript/arxiv/aebad-grouped-splits-bilingual.pdf)
+- [可编辑双语 Word](manuscript/arxiv/aebad-grouped-splits-bilingual.docx)
+- [英文源稿](manuscript/arxiv/manuscript-en.md)与[中文源稿](manuscript/2026-11-19-draft-v0.md)
+- [图件、排版及重建说明](manuscript/arxiv/README.md)
+
+稿件附录中的部分本地实验记录及图件重建所需数据未随此快照发布。图 1 的 AeBAD-S 样本及许可见图注。
+
 ## 阅读顺序
 
 1. [第五阶段：两池候选阈值覆盖诊断](week5/week5-report-route-c-v1.md)

@@ -1,0 +1,8 @@
+Title: Grouped Splits and False-Alarm Budgets in Few-Shot Anomaly Detection: exact counting on two fixed-score pools
+Authors: [To be confirmed by the submitting author]
+Primary category (proposed): cs.CV
+Comments: 24 pages, 4 figures per language version. In English and Chinese.
+Distribution license: [To be selected by the submitting author]
+
+Abstract (1172 characters, copy the text below):
+We quantify how keeping near-duplicate images together changes false-alarm budget outcomes in few-shot anomaly detection. We fix image scores in two AeBAD-S pools, the background-shift subset (background) and the unshifted subset (same). Each allocation splits 93 normal images into 61 for calibration and 32 for evaluation, with a budget of one false positive. We count all legal allocations for two thresholds, the largest calibration score (MAX) and the midpoint of the two largest (MID12). Without a group reserved for calibration, whole-group assignment raises the probability that both rules exceed the budget from 11.59% to 20.74% in background and from 11.59% to 12.87% in same. When the two highest-scoring normals are singletons and outrank the third, this probability is a ratio of generating-function coefficients determined by the group sizes. Both pools meet these conditions. In same, the probability of MID12-only exceedance rises by 0.44 percentage points. The probability that MID12 detects more defects than MAX while meeting the budget rises by 5.69 percentage points in background and falls by 1.72 in same. These changes describe the two fixed pools.
